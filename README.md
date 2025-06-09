@@ -5,34 +5,14 @@
 ---
 
 ### Connect with me:
-### Conecta conmigo:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-quishpi-767a62335/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Salad_Dann)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/salad_dann/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/edwin.quishpi.3/)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/salad_dann/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:edwinquishpi.2@gmail.com)
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/edwin-quishpi-767a62335/" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn" width="40" height="40" style="filter: none;"/>
-  </a>
-  <a href="https://twitter.com/Salad_Dann" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/x.svg" alt="X (Twitter)" width="40" height="40" style="filter: none;"/>
-  </a>
-  <a href="https://www.instagram.com/salad_dann/" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" alt="Instagram" width="40" height="40" style="filter: none;"/>
-  </a>
-  <a href="https://www.facebook.com/edwin.quishpi.3/" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" alt="Facebook" width="40" height="40" style="filter: none;"/>
-  </a>
-  <a href="https://discord.gg/salad_dann/" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/discord.svg" alt="Discord" width="40" height="40" style="filter: none;"/>
-  </a>
-  <a href="mailto:edwinquishpi.2@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gmail.svg" alt="Email" width="40" height="40" style="filter: none;"/>
-  </a>
-  <a href="https://github.com/TU_USUARIO_DE_GITHUB" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" alt="GitHub" width="40" height="40" style="filter: none;"/>
-  </a>
-  <a href="TU_URL_DE_TU_PORTFOLIO" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/wordpress.svg" alt="Portfolio" width="40" height="40" style="filter: none;"/>
-  </a>
-</p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/LinkedIn/LinkedIn-original.svg" alt="HTML5" width="40" height="40"/>
 
 ---
 ### Languages and Tools:
