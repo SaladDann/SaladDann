@@ -15,10 +15,15 @@
   <a href="https://twitter.com/Salad_Dann" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/x.svg" alt="X (Twitter)" width="40" height="40"/>
   </a>
-
-  <a href="https://twitter.com/Salad_Dann" target="_blank" rel="noopener noreferrer">
-    
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/salad_dann/" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" alt="Instagram" width="40" height="40"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40" height="40"/>
   </a>
+
+
+
+ 
   <a href="https://www.instagram.com/salad_dann/" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" alt="Instagram" width="40" height="40" style="filter: none;"/>
   </a>
@@ -43,19 +48,8 @@
 
 
 
-<!-- Linkedin -->
-<a href="https://www.linkedin.com/in/edwin-quishpi-767a62335/" target="_blank" rel="noopener noreferrer">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"/>
-</a>
-<!-- Twitter -->
-  <a href="https://twitter.com/Salad_Dann" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="Twitter" width="40" height="40"/>
-  </a>
 
-  <!-- Instagram -->
-  <a href="https://www.instagram.com/salad_dann/" target="_blank" rel="noopener noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40" height="40"/>
-  </a>
+  
 
   <!-- Facebook -->
   <a href="https://www.facebook.com/edwin.quishpi.3/" target="_blank" rel="noopener noreferrer">
