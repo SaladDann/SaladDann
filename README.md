@@ -27,7 +27,7 @@
 
   <!-- Discord -->
   <a href="https://discord.gg/salad_dann/" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discord/discord-original.svg" alt="Discord" width="40" height="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" alt="Discord" width="40" height="40"/>
   </a>
 
   <!-- Email (Gmail) -->
