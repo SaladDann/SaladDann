@@ -33,7 +33,7 @@
 ---
 [![Tu Nombre de Usuario](https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=dark)](https://github.com/SaladDann)
 [![Tu Nombre de Usuario](https://github-readme-stats.vercel.app/api?username=SaladDann&show_icons=true&theme=dark&rank_icon=percentile)](https://github.com/SaladDann)
-<img src="https://github-readme-streak-stats.vercel.app/?username=SaladDann&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Racha de Contribuciones de GitHub de SaladDann"/>
+<img src="https://github-readme-streak-stats.vercel.app/?user=SaladDann&theme=dark&date_format=M%20j%5B%2C%20Y%5D" alt="Racha de Contribuciones de GitHub de SaladDann"/>
 <img src="https://github-profile-trophy.vercel.app/?username=SaladDann&theme=dark_dimmed&no-bg=true&no-frame=true" alt="Trofeos de GitHub de SaladDann"/>
 
 
