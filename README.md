@@ -22,19 +22,22 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" alt="Django" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" width="40" height="40"/>
 </p>
     
 ---
-[![Tu Nombre de Usuario](https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=dark)](https://github.com/SaladDann)
-[![Tu Nombre de Usuario](https://github-readme-stats.vercel.app/api?username=SaladDann&show_icons=true&theme=dark&rank_icon=percentile)](https://github.com/SaladDann)
+### Stats
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SaladDann&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_title=true&hide_rank=true" alt="Estadísticas de GitHub de SaladDann"/>  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=dark&hide_title=true&card_width=320" alt="Lenguajes Más Usados por SaladDann"/>
+  <img src="https://github-readme-streak-stats.vercel.app/?user=SaladDann&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Racha de Contribuciones de GitHub de SaladDann"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=SaladDann&theme=dark_dimmed&no-bg=true&no-frame=true" alt="Trofeos de GitHub de SaladDann"/>
+</p>
 ---
 
