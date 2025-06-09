@@ -7,7 +7,7 @@
 ### Connect with me:
 <p align="left">
   <a href="https://www.linkedin.com/in/edwin-quishpi-767a62335/" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn" width="40" height="40" style="filter: none;"/>
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn" width="40" height="40" style="filter: white;"/>
   </a>
 </p>
 
