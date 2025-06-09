@@ -18,8 +18,6 @@
   <!-- Instagram -->
   <a href="https://www.instagram.com/salad_dann/" target="_blank" rel="noopener noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40" height="40"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-<i class="bi bi-instagram"></i>
   </a>
   <!-- Facebook -->
   <a href="https://www.facebook.com/edwin.quishpi.3/" target="_blank" rel="noopener noreferrer">
@@ -29,7 +27,7 @@
  
 
   <a href="https://www.facebook.com/edwin.quishpi.3/" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" alt="Facebook" width="40" height="40" style="filter: none;"/>
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" alt="Facebook" width="40" height="40"/>
   </a>
   <a href="https://discord.gg/salad_dann/" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/discord.svg" alt="Discord" width="40" height="40" style="filter: none;"/>
