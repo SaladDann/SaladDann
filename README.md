@@ -21,7 +21,11 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40" height="40"/>
   </a>
 
-
+<div style="display: flex; gap: 16px;">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhE..." alt="Instagram" style="width: 32px; height: 32px;">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhE..." alt="Facebook" style="width: 32px; height: 32px;">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhE..." alt="Twitter" style="width: 32px; height: 32px;">
+</div>
 
  
   <a href="https://www.instagram.com/salad_dann/" target="_blank" rel="noopener noreferrer">
