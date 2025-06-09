@@ -34,13 +34,13 @@
 <table>
   <tr>
     <td valign="top" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=dark&hide_title=false&card_width=400" alt="Lenguajes Más Usados por SaladDann"/>
+    </td>
+    <td valign="top" width="50%">
       <img src="https://github-readme-stats.vercel.app/api?username=SaladDann&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_title=false&hide_rank=false" alt="Estadísticas de GitHub de SaladDann"/>
       <br>
       <br>
       <img src="https://github-readme-streak-stats.vercel.app/?user=SaladDann&theme=dark&date_format=M%20j%5B%2C%20Y%5D" alt="Racha de Contribuciones de GitHub de SaladDann"/>
-    </td>
-    <td valign="top" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=dark&hide_title=false&card_width=400" alt="Lenguajes Más Usados por SaladDann"/>
     </td>
   </tr>
 </table>
