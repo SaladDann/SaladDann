@@ -8,7 +8,7 @@
 <a href="https://www.linkedin.com/in/edwin-quishpi-767a62335/" target="_blank" rel="noopener noreferrer">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"/>
 </a>
-
+<br>
 <a href="https://twitter.com/Salad_Dann" target="_blank" rel="noopener noreferrer">
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/x.svg" alt="X (Twitter)" width="40" height="40" style="filter: none;"/>
 </a>
