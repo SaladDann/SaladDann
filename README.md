@@ -18,7 +18,8 @@
   <!-- Instagram -->
   <a href="https://www.instagram.com/salad_dann/" target="_blank" rel="noopener noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40" height="40"/>
-    <img src="/assets/icons/instagram-logo.svg" alt="Instagram" width="40" height="40">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<i class="bi bi-instagram"></i>
   </a>
   <!-- Facebook -->
   <a href="https://www.facebook.com/edwin.quishpi.3/" target="_blank" rel="noopener noreferrer">
