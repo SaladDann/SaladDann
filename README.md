@@ -33,11 +33,8 @@
 ---
 ### Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SaladDann&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_title=true&hide_rank=true" alt="Estadísticas de GitHub de SaladDann"/>  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=dark&hide_title=true&card_width=320" alt="Lenguajes Más Usados por SaladDann"/>
-  <img src="https://github-readme-streak-stats.vercel.app/?user=SaladDann&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Racha de Contribuciones de GitHub de SaladDann"/>
-  <img src="https://github-profile-trophy.vercel.app/?username=SaladDann&theme=dark_dimmed&no-bg=true&no-frame=true" alt="Trofeos de GitHub de SaladDann"/>
-</p>
+[![Tu Nombre de Usuario](https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=dark)](https://github.com/SaladDann)
+[![Tu Nombre de Usuario](https://github-readme-stats.vercel.app/api?username=SaladDann&show_icons=true&theme=dark&rank_icon=percentile)](https://github.com/SaladDann) 
+<img src="https://github-profile-trophy.vercel.app/?username=SaladDann&theme=dark_dimmed&no-bg=true&no-frame=true" alt="Trofeos de GitHub de SaladDann"/><img src="https://github-profile-trophy.vercel.app/?username=SaladDann&theme=dark_dimmed&no-bg=true&no-frame=true" alt="Trofeos de GitHub de SaladDann"/>
 ---
 
