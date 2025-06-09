@@ -5,6 +5,12 @@
 ---
 
 ### Connect with me:
+<p align="left">
+  <a href="https://www.linkedin.com/in/edwin-quishpi-767a62335/" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn" width="40" height="40" style="filter: none;"/>
+  </a>
+</p>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-quishpi-767a62335/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Salad_Dann)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/salad_dann/)
@@ -12,7 +18,6 @@
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/salad_dann/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:edwinquishpi.2@gmail.com)
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/LinkedIn/LinkedIn-original.svg" alt="HTML5" width="40" height="40"/>
 
 ---
 ### Languages and Tools:
