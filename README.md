@@ -1,7 +1,7 @@
 ## Hi👋, I'm Edwin
 
-[![Tu Nombre de Usuario](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_NOMBRE_DE_USUARIO&layout=compact&theme=dark)](https://github.com/TU_NOMBRE_DE_USUARIO)
-[![Tu Nombre de Usuario](https://github-readme-stats.vercel.app/api?username=TU_NOMBRE_DE_USUARIO&show_icons=true&theme=dark&rank_icon=percentile)](https://github.com/TU_NOMBRE_DE_USUARIO)
+[![Tu Nombre de Usuario](https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=dark)](https://github.com/SaladDann)
+[![Tu Nombre de Usuario](https://github-readme-stats.vercel.app/api?username=SaladDann&show_icons=true&theme=dark&rank_icon=percentile)](https://github.com/SaladDann)
 
 ---
 
