@@ -25,7 +25,7 @@
   </a>
   <!-- Discord -->
   <a href="https://discord.gg/salad_dann/" target="_blank" rel="noopener noreferrer">
-    <img src="cdn.jsdelivr.net/npm/simple-icons@latest/icons/discordjs-original.svg" alt="Discord" width="40" height="40"/>
+    <img src="cdn.jsdelivr.net/npm/simple-icons@latest/icons/discord.svg" alt="Discord" width="40" height="40"/>
   </a>
   <!-- Email (Gmail) -->
   <a href="mailto:edwinquishpi.2@gmail.com">
