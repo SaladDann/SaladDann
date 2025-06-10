@@ -2,6 +2,7 @@
 ---
 * ✍️  I’m currently working on Front-end technologies, Typescript, React, MySQL, OracleDB, Node.js, Prisma, MySQL.
 * 🌱 I’m currently learning to create applications and websites applying responsive designs for code reliability.
+* 🔗 [Ver repo](https://github.com/tu_usuario/my-projects)
 ---
 
 ### Connect with me:
