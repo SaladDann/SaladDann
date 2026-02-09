@@ -23,10 +23,25 @@ Estudiante. Actualmente trabajando con el stack **React/Node.js** y explorando e
 ---
 
 ### 🛠️ Tecnologías y Herramientas
+#### Frameworks & Tecnologías Web/Móvil
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,react,nodejs,mysql,prisma,flutter,dart,git,html,css" />
+  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,flutter,dart,dotnet,prisma" title="Frameworks & Web" />
 </p>
 
+#### Bases de Datos
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,oracle,postgres" title="Databases" />
+</p>
+
+#### Lenguajes de Programación
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=ts,js,cs,java,python,cpp,html,css" title="Languages" />
+</p>
+
+#### Entornos & Herramientas
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=androidstudio,visualstudio,vscode,git,postman" title="Tools" />
+</p>
 ---
 
 ### 🤝 Conectemos
