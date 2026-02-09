@@ -23,14 +23,15 @@ Estudiante. Actualmente trabajando con el stack **React/Node.js** y explorando e
 ---
 
 ### 🛠️ Tecnologías y Herramientas
+
 #### Frameworks & Tecnologías Web/Móvil
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,flutter,dart,dotnet,prisma" title="Frameworks & Web" />
+  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,flutter,dart,dotnet,prisma,docker" title="Frameworks & Cloud" />
 </p>
 
-#### Bases de Datos
+#### Bases de Datos & Gestión
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=mysql,mongodb,oracle,postgres" title="Databases" />
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,oracle,postgres,beaver" title="Databases & Management" />
 </p>
 
 #### Lenguajes de Programación
@@ -38,9 +39,16 @@ Estudiante. Actualmente trabajando con el stack **React/Node.js** y explorando e
   <img src="https://skillicons.dev/icons?i=ts,js,cs,java,python,cpp,html,css" title="Languages" />
 </p>
 
-#### Entornos & Herramientas
+#### Creative Stack (Design & Audio)
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=androidstudio,visualstudio,vscode,git,postman" title="Tools" />
+  <img src="https://skillicons.dev/icons?i=ai,ps,au" title="Creative Tools" /> 
+  <img src="https://img.shields.io/badge/FL_Studio-Black?style=flat&logo=flstudio&logoColor=orange" alt="FL Studio" />
+  <img src="https://img.shields.io/badge/Cubase-00AEEF?style=flat&logo=steinberg&logoColor=white" alt="Cubase" />
+</p>
+
+#### IDEs & Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=androidstudio,visualstudio,vscode,pycharm,eclipse,netbeans,git,postman" title="IDEs & Tools" />
 </p>
 ---
 
