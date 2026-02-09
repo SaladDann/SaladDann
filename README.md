@@ -14,11 +14,7 @@ Estudiante. Actualmente trabajando con el stack **React/Node.js** y explorando e
 ---
 
 ### 📊 Mis Estadísticas de GitHub
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SaladDann&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=tokyonight&hide_border=false" />
-</p>
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaladDann&theme=tokyonight" alt="GitHub Streak" />
