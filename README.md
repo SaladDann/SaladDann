@@ -27,7 +27,7 @@ Soy estudiante de Ingeniería de Software con una visión híbrida: **si se pued
 
 ### 🛠️ Tecnologías y Herramientas
 
-#### Frameworks & Cloud (2025 Certified)
+#### Frameworks
 <p align="left">
   <img src="https://skillicons.dev/icons?i=react,vite,nodejs,flutter,dart,dotnet,prisma,docker,gcp" title="Frameworks & Cloud" />
 </p>
