@@ -80,15 +80,12 @@ Soy estudiante de Ingeniería de Software con una visión híbrida: **si se pued
 ¿Te resultó útil alguno de mis repositorios? Si quieres apoyar mis proyectos o invitarme a un café (¡que probablemente se convertirá en más código o más audio!), puedes hacerlo aquí:
 
 <p align="left">
-  <a href="https://www.buymeacoffee.com/_yoman" target="_blank">
-    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Invítame un café" />
-  </a>
   <a href="https://paypal.me/SaladDan" target="_blank">
     <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
   </a>
 </p>
 
-Tu apoyo me ayuda a seguir creando contenido técnico, de audio y musical. ¡Gracias por ser parte del viaje!
+¡Gracias por ser parte del viaje!
 
 ---
 <p align="center">
