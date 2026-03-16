@@ -74,20 +74,6 @@ Soy estudiante de Ingeniería de Software con una visión híbrida: **si se pued
 </p>
 
 ---
-
-### ☕ Apoya mi trabajo
-
-¿Te resultó útil alguno de mis repositorios? Si quieres apoyar mis proyectos o invitarme a un café (¡que probablemente se convertirá en más código o más audio!), puedes hacerlo aquí:
-
-<p align="left">
-  <a href="https://paypal.me/SaladDan" target="_blank">
-    <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
-  </a>
-</p>
-
-¡Gracias por ser parte del viaje!
-
----
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
 </p>
