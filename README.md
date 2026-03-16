@@ -11,7 +11,7 @@ Soy estudiante de Ingeniería de Software con una visión híbrida: **si se pued
 
 * 🚀 **Enfoque actual:** Stack **React/Node.js** y desarrollo móvil con **Flutter**.
 * ☁️ **Cloud Power:** Certificado en **Google Cloud Operations (2025)**.
-* 🎼 **Audio Craft:** Experto en restauración y limpieza manual en **Cubase/FL Studio** (nada de procesos automáticos genéricos).
+* 🎼 **Audio Craft:** Experto en restauración y limpieza manual.
 * 🚜 **Background:** Mi formación técnica agropecuaria y administrativa me dio la disciplina de campo que hoy aplico al debugging y la gestión de datos críticos.
 
 * 🔗 **Portafolio:** [Mis Proyectos Seleccionados](https://github.com/SaladDann/my-projects)
