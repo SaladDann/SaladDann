@@ -7,7 +7,7 @@
 </p>
 
 ### ✍️ Sobre mí
-Soy estudiante de Ingeniería de Software con una visión híbrida: **si se puede programar, se puede optimizar; y si suena, se puede masterizar.** Mi enfoque une la arquitectura de software limpia con la precisión técnica de la post-producción de audio.
+Soy estudiante de Ingeniería de Software.
 
 * 🚀 **Enfoque actual:** Stack **React/Node.js** y desarrollo móvil con **Flutter**.
 * ☁️ **Cloud Power:** Certificado en **Google Cloud Operations (2025)**.
