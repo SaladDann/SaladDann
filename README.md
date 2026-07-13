@@ -6,24 +6,15 @@
   <img src="https://img.shields.io/badge/Cloud-Google%20Cloud%20Certified-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
 </p>
 
-### ✍️ Sobre mí
-Soy estudiante de Ingeniería de Software.
-
-* 🚀 **Enfoque actual:** Stack **React/Node.js** y desarrollo móvil con **Flutter**.
-* ☁️ **Cloud Power:** Certificado en **Google Cloud Operations (2025)**.
-
-* 🔗 **Portafolio:** [Mis Proyectos Seleccionados](https://github.com/SaladDann/my-projects)
-
 ---
 
 ### 📊 Mis Estadísticas de GitHub
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaladDann&theme=tokyonight" alt="GitHub Streak" />
+  * 🔗 **Portafolio:** [Mis Proyectos Seleccionados](https://github.com/SaladDann/my-projects)
 </p>
 
 ---
-
-### 🛠️ Tecnologías y Herramientas
 
 #### Frameworks
 <p align="left">
@@ -55,7 +46,7 @@ Soy estudiante de Ingeniería de Software.
 
 ---
 
-### 🤝 Conectemos
+### 🤝 Contact
 <p align="left">
   <a href="https://www.linkedin.com/in/edwin-quishpi-767a62335/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
