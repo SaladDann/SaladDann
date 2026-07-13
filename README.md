@@ -5,13 +5,11 @@
   <img src="https://img.shields.io/badge/Back--end-Node.js%2C%20Prisma-green?style=for-the-badge&logo=node.js" />
   <img src="https://img.shields.io/badge/Cloud-Google%20Cloud%20Certified-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
 </p>
+* 🔗 **Portafolio:** [Mis Proyectos Seleccionados](https://github.com/SaladDann/my-projects)
 
 ---
-
-### 📊 Mis Estadísticas de GitHub
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaladDann&theme=tokyonight" alt="GitHub Streak" />
-  * 🔗 **Portafolio:** [Mis Proyectos Seleccionados](https://github.com/SaladDann/my-projects)
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaladDann&theme=tokyonight" alt="GitHub Streak" />  
 </p>
 
 ---
