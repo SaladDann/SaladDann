@@ -5,12 +5,17 @@ on:
     - cron: '0 0 * * *'  # Se ejecuta automáticamente cada medianoche
   workflow_dispatch:      # Permite ejecutarlo manualmente desde GitHub
 
+permissions:
+  contents: write         # Otorga permisos de escritura para hacer commit y push
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Descarga el historial completo para evitar errores de push
 
       - name: Setup Python
         uses: actions/setup-python@v5
