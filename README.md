@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="#-catálogo-de-proyectos">
+  <a href="https://github.com/SaladDann/my-projects" target="_blank">
     <img src="https://img.shields.io/badge/📁%20Explorar_Catálogo_de_Proyectos-0d9488?style=for-the-badge&logoColor=white" alt="Ver Catálogo de Proyectos" />
   </a>
 </p>
@@ -33,92 +33,13 @@
 ---
 
 <p align="center">
-  <!-- Estadísticas Generales (Commits, PRs, Issues, Stars) -->
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SaladDann&show_icons=true&theme=nord&bg_color=0f172a&title_color=0d9488&text_color=94a3b8&icon_color=0a9396&border_color=1e293b&hide_border=false" alt="Estadísticas de GitHub de SaladDann" />
-  
-  <!-- Lenguajes Más Usados (Calculado automáticamente por GitHub) -->
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=nord&bg_color=0f172a&title_color=0d9488&text_color=94a3b8&border_color=1e293b&hide_border=false&hide=html,css" alt="Lenguajes más usados por SaladDann" />
-</p>
-
-<p align="center">
-  <!-- Racha de Contribuciones (Streak) -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaladDann&theme=nord&background=0F172A&stroke=0D9488&ring=1E3A8A&fire=0A9396&border=1E293B" alt="GitHub Streak" />
 </p>
 
----
-
-<!-- CATALOG_START -->
-
-<h3 id="-catálogo-de-proyectos">📂 Catálogo de Proyectos</h3>
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4 align="left">📁 <a href="https://github.com/SaladDann/app_onlinemusic">app_onlinemusic</a></h4>
-      <p><sub>📅 Creado: <code>2026-10-10</code> | ⭐ 0</sub></p>
-      <p><img src="https://img.shields.io/badge/Dart-0d9488?style=flat-square&logo=dart&logoColor=white" alt="Dart" /></p>
-      <p>Reproductor de música para Android desarrollado con Flutter y componentes nativos de Android. El proyecto está orientado a reproducir música local y contempla integrar música de Google Drive, con bibliotecas separadas o combinadas.</p>
-      <p><a href="https://github.com/SaladDann/app_onlinemusic"><b>Ver Repositorio »</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4 align="left">📁 <a href="https://github.com/SaladDann/calculadora-calificaciones-cicd">calculadora-calificaciones-cicd</a></h4>
-      <p><sub>📅 Creado: <code>2026-07-10</code> | ⭐ 0</sub></p>
-      <p><img src="https://img.shields.io/badge/JavaScript-0a9396?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" /></p>
-      <p>Proyecto desarrollado en GitHub.</p>
-      <p><a href="https://github.com/SaladDann/calculadora-calificaciones-cicd"><b>Ver Repositorio »</b></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4 align="left">📁 <a href="https://github.com/SaladDann/GCS-MiProyecto">GCS-MiProyecto</a></h4>
-      <p><sub>📅 Creado: <code>2026-06-19</code> | ⭐ 0</sub></p>
-      <p><img src="https://img.shields.io/badge/Code-0d9488?style=flat-square" alt="Code" /></p>
-      <p>Proyecto desarrollado en GitHub.</p>
-      <p><a href="https://github.com/SaladDann/GCS-MiProyecto"><b>Ver Repositorio »</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4 align="left">📁 <a href="https://github.com/SaladDann/GCS-inventario-ci-cd">GCS-inventario-ci-cd</a></h4>
-      <p><sub>📅 Creado: <code>2026-05-16</code> | ⭐ 0</sub></p>
-      <p><img src="https://img.shields.io/badge/HTML5-0a9396?style=flat-square&logo=html5&logoColor=white" alt="HTML" /></p>
-      <p>Proyecto desarrollado en GitHub.</p>
-      <p><a href="https://github.com/SaladDann/GCS-inventario-ci-cd"><b>Ver Repositorio »</b></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4 align="left">📁 <a href="https://github.com/SaladDann/GCS-TecnoRepuestos-System">GCS-TecnoRepuestos-System</a></h4>
-      <p><sub>📅 Creado: <code>2026-05-14</code> | ⭐ 0</sub></p>
-      <p><img src="https://img.shields.io/badge/JavaScript-0a9396?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" /></p>
-      <p>Proyecto desarrollado en GitHub.</p>
-      <p><a href="https://github.com/SaladDann/GCS-TecnoRepuestos-System"><b>Ver Repositorio »</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4 align="left">📁 <a href="https://github.com/SaladDann/mi-proyecto-ci-cd">mi-proyecto-ci-cd</a></h4>
-      <p><sub>📅 Creado: <code>2026-04-12</code> | ⭐ 0</sub></p>
-      <p><img src="https://img.shields.io/badge/JavaScript-0a9396?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" /></p>
-      <p>Proyecto desarrollado en GitHub.</p>
-      <p><a href="https://github.com/SaladDann/mi-proyecto-ci-cd"><b>Ver Repositorio »</b></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4 align="left">📁 <a href="https://github.com/SaladDann/regcons_flutter">regcons_flutter</a></h4>
-      <p><sub>📅 Creado: <code>2026-02-01</code> | ⭐ 0</sub></p>
-      <p><img src="https://img.shields.io/badge/Dart-0d9488?style=flat-square&logo=dart&logoColor=white" alt="Dart" /></p>
-      <p>Gestión de avances físicos y reportes de seguridad, para el sector de la construcción.</p>
-      <p><a href="https://github.com/SaladDann/regcons_flutter"><b>Ver Repositorio »</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4 align="left">📁 <a href="https://github.com/SaladDann/RegCons">RegCons</a></h4>
-      <p><sub>📅 Creado: <code>2025-12-15</code> | ⭐ 0</sub></p>
-      <p><img src="https://img.shields.io/badge/HTML5-0a9396?style=flat-square&logo=html5&logoColor=white" alt="HTML" /></p>
-      <p>Proyecto de Desarrollo de aplicaciones</p>
-      <p><a href="https://github.com/SaladDann/RegCons"><b>Ver Repositorio »</b></a></p>
-    </td>
-  </tr>
-</table>
-
-<!-- CATALOG_END -->
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SaladDann&show_icons=true&theme=nord&bg_color=0f172a&title_color=0d9488&text_color=94a3b8&icon_color=0a9396&border_color=1e293b&hide_border=false" alt="Estadísticas de GitHub" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=nord&bg_color=0f172a&title_color=0d9488&text_color=94a3b8&border_color=1e293b&hide_border=false&hide=html,css" alt="Lenguajes más usados" />
+</p>
 
 ---
 
@@ -151,8 +72,6 @@
 </p>
 
 ---
-
-
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0d9488&height=100&section=footer" />
