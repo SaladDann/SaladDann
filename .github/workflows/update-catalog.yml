@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Descarga el historial completo para evitar errores de push
+          fetch-depth: 0  # Descarga todo el historial para permitir pull/rebase
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -29,6 +29,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_projects.py
+
+      - name: Pull remote changes before commit
+        run: git pull origin main --rebase
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
