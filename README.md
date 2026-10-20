@@ -1,35 +1,53 @@
-<div style="display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; padding: 20px 24px; border: 1px solid #1e293b; border-radius: 12px; background-color: #0f172a; background-image: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);">
-
-  <!-- Nombre + Rol -->
-  <div>
-    <h1 style="margin: 0; font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, monospace; font-size: 1.8rem; font-weight: 700; color: #f1f5f9; letter-spacing: -0.5px;">
-      Edwin Quishpi
-    </h1>
-    <p style="margin: 6px 0 0 0; font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, monospace; font-size: 0.82rem; color: #94a3b8;">
-      <span style="color: #0d9488;">Software Engineer</span> &nbsp;·&nbsp; Tech Explorer
-    </p>
-  </div>
-
-  <!-- Botón Catálogo -->
-  <a href="https://github.com/SaladDann/my-projects" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/📁_Catálogo_de_Proyectos-0d9488?style=flat-square&logoColor=white&labelColor=0f172a" alt="Ver Catálogo de Proyectos" />
-  </a>
-
-</div>
+<table style="width:100%; border:1px solid #1e293b; border-radius:12px; background-color:#0f172a; border-collapse:separate; border-spacing:0; padding:0;">
+  <tr>
+    <td style="padding:20px 24px; font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,monospace; vertical-align:middle;">
+      <h1 style="margin:0; font-family:'JetBrains Mono','Fira Code',monospace; font-size:1.8rem; font-weight:700; color:#f1f5f9; letter-spacing:-0.5px;">
+        Edwin Quishpi
+      </h1>
+      <p style="margin:6px 0 0 0; font-family:'JetBrains Mono','Fira Code',monospace; font-size:0.82rem; color:#94a3b8;">
+        <span style="color:#0d9488;"> Software Engineer</span> &nbsp;·&nbsp; Full-Stack
+      </p>
+    </td>
+    <td style="padding:20px 24px; text-align:right; vertical-align:middle; white-space:nowrap;">
+      <a href="https://github.com/SaladDann/my-projects" target="_blank" style="text-decoration:none;">
+        <img src="https://img.shields.io/badge/▶_VER_PROYECTOS-0d9488?style=for-the-badge&logoColor=white&labelColor=0f172a" alt="Ver proyectos" />
+      </a>
+      <br /><br />
+      <a href="mailto:edwinquishpi.2@gmail.com" style="text-decoration:none;">
+        <img src="https://img.shields.io/badge/✉_CONTACTO-1e293b?style=for-the-badge&logoColor=5eead4&labelColor=0f172a" alt="Contacto" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br />
 
+<!--
 ---
 
-<!-- Título 1 -->
-<div style="border-left: 3px solid #0d9488; padding-left: 12px; margin: 20px 0 14px 0;">
-  <span style="font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace; font-size: 0.85rem; font-weight: 600; color: #0d9488; letter-spacing: 1px;">
+<div style="border-left:3px solid #0d9488; padding-left:12px; margin:20px 0 14px 0;">
+  <span style="font-family:'JetBrains Mono','Fira Code',monospace; font-size:0.85rem; font-weight:600; color:#0d9488; letter-spacing:1px;">
+     RESULTADOS
+  </span>
+</div>
+
+<!-- TODO: reemplaza por 2–3 proyectos reales -->
+<!--
+- **[Proyecto 1](https://github.com/SaladDann/my-projects)** — problema en una línea → *resultado concreto*
+- **[Proyecto 2](https://github.com/SaladDann/my-projects)** — problema en una línea → *resultado concreto*
+
+[ver todos →](https://github.com/SaladDann/my-projects)
+-->
+---
+
+<div style="border-left:3px solid #0d9488; padding-left:12px; margin:20px 0 14px 0;">
+  <span style="font-family:'JetBrains Mono','Fira Code',monospace; font-size:0.85rem; font-weight:600; color:#0d9488; letter-spacing:1px;">
      TECH_STACK &amp; HERRAMIENTAS
   </span>
 </div>
 
-<p align="left" style="margin-bottom: 8px;">
-  <sub style="font-family: 'JetBrains Mono', 'Fira Code', monospace; color:#64748b; letter-spacing:1px;">CORE &amp; CLOUD</sub>
+<p align="left" style="margin-bottom:8px;">
+  <sub style="font-family:'JetBrains Mono','Fira Code',monospace; color:#64748b; letter-spacing:1px;">CORE &amp; CLOUD</sub>
 </p>
 <p align="left">
   <img src="https://img.shields.io/badge/TypeScript-0f172a?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
@@ -48,8 +66,8 @@
   <img src="https://img.shields.io/badge/GCP-0f172a?style=flat-square&logo=googlecloud&logoColor=4285F4" alt="Google Cloud" />
 </p>
 
-<p align="left" style="margin-bottom: 8px;">
-  <sub style="font-family: 'JetBrains Mono', 'Fira Code', monospace; color:#64748b; letter-spacing:1px;">TOOLS &amp; CREATIVE</sub>
+<p align="left" style="margin-bottom:8px;">
+  <sub style="font-family:'JetBrains Mono','Fira Code',monospace; color:#64748b; letter-spacing:1px;">TOOLS &amp; CREATIVE</sub>
 </p>
 <p align="left">
   <img src="https://img.shields.io/badge/VS_Code-0f172a?style=flat-square&logo=visualstudiocode&logoColor=007ACC" alt="VS Code" />
@@ -66,9 +84,8 @@
 
 ---
 
-<!-- Título 2 -->
-<div style="border-left: 3px solid #0d9488; padding-left: 12px; margin: 20px 0 14px 0;">
-  <span style="font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace; font-size: 0.85rem; font-weight: 600; color: #0d9488; letter-spacing: 1px;">
+<div style="border-left:3px solid #0d9488; padding-left:12px; margin:20px 0 14px 0;">
+  <span style="font-family:'JetBrains Mono','Fira Code',monospace; font-size:0.85rem; font-weight:600; color:#0d9488; letter-spacing:1px;">
      ESTADÍSTICAS &amp; ACTIVIDAD
   </span>
 </div>
@@ -81,9 +98,8 @@
 
 ---
 
-<!-- Título 3 -->
-<div style="border-left: 3px solid #0d9488; padding-left: 12px; margin: 20px 0 14px 0;">
-  <span style="font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace; font-size: 0.85rem; font-weight: 600; color: #0d9488; letter-spacing: 1px;">
+<div style="border-left:3px solid #0d9488; padding-left:12px; margin:20px 0 14px 0;">
+  <span style="font-family:'JetBrains Mono','Fira Code',monospace; font-size:0.85rem; font-weight:600; color:#0d9488; letter-spacing:1px;">
      CONTACTO &amp; CONEXIÓN
   </span>
 </div>
@@ -103,53 +119,31 @@
   </a>
 </p>
 
-<p align="center" style="margin-top: 16px;">
+<p align="center" style="margin-top:16px;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaladDann/SaladDann/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SaladDann/SaladDann/output/github-contribution-grid-snake.svg" />
     <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/SaladDann/SaladDann/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d9488&height=80&section=footer" width="100%" />
 </p>
 
 <br />
 
 <!-- Easter Egg Musical -->
-<details style="margin-top: 12px;">
-  <summary style="
-      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, monospace;
-      font-size: 0.78rem;
-      color: #373c45;
-      cursor: pointer;
-      letter-spacing: 0.5px;
-      padding: 4px 0;
-      list-style: none;
-      outline: none;
-    ">
-    <span style="opacity: 0.85;">system_audio / side_project</span>
+<details style="margin-top:12px;">
+  <summary style="font-family:'JetBrains Mono','Fira Code',monospace; font-size:0.78rem; color:#94a3b8; cursor:pointer; letter-spacing:0.5px; padding:4px 0; list-style:none; outline:none;">
+    <span style="color:#5eead4;">🎧 música</span> <span style="opacity:0.75;">/ side_project</span>
   </summary>
 
-  <div style="
-      margin-top: 10px;
-      padding: 12px 16px;
-      border-left: 2px solid #0d9488;
-      background: transparent;
-      max-width: 480px;
-    ">
-    <p style="
-        margin: 0 0 10px 0;
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 0.75rem;
-        color: #94a3b8;
-        line-height: 1.5;
-      ">
+  <div style="margin-top:10px; padding:12px 16px; border-left:2px solid #0d9488; max-width:480px;">
+    <p style="margin:0 0 10px 0; font-family:'JetBrains Mono','Fira Code',monospace; font-size:0.75rem; color:#94a3b8; line-height:1.5;">
       También produzco música como hobby.
     </p>
-
-  <a href="https://open.spotify.com/intl-es/artist/67BdlNDvFCa6aRWlcrlWUy" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/escuchar_en_spotify-1DB954?style=flat-square&logo=spotify&logoColor=white&labelColor=0f172a" alt="Spotify Artist" />
-  </a>
+    <a href="https://open.spotify.com/intl-es/artist/67BdlNDvFCa6aRWlcrlWUy" target="_blank" style="text-decoration:none;">
+      <img src="https://img.shields.io/badge/escuchar_en_spotify-1DB954?style=flat-square&logo=spotify&logoColor=white&labelColor=0f172a" alt="Spotify Artist" />
+    </a>
     <img src="https://img.shields.io/badge/fl_studio-1e293b?style=flat-square&logo=flstudio&logoColor=0a9396" alt="FL Studio" />
     <img src="https://img.shields.io/badge/steinberg-1e293b?style=flat-square&logo=steinberg&logoColor=00f5d4" alt="Steinberg" />
   </div>
 </details>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d9488&height=80&section=footer" width="100%" />
