@@ -79,14 +79,6 @@
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaladDann&layout=compact&theme=nord&bg_color=0f172a&title_color=0d9488&text_color=94a3b8&border_color=1e293b&hide_border=false&hide=html,css" alt="Lenguajes más usados" />
 </p>
 
-<p align="center" style="margin-top: 16px;">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaladDann/SaladDann/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SaladDann/SaladDann/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/SaladDann/SaladDann/output/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
-</p>
-
 ---
 
 <!-- Título 3 -->
@@ -110,6 +102,17 @@
     <img src="https://img.shields.io/badge/Discord-0f172a?style=flat-square&logo=discord&logoColor=5865F2&labelColor=1e293b" alt="Discord" />
   </a>
 </p>
+
+<p align="center" style="margin-top: 16px;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaladDann/SaladDann/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SaladDann/SaladDann/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/SaladDann/SaladDann/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d9488&height=80&section=footer" width="100%" />
+</p>
+
+<br />
 
 <!-- Easter Egg Musical -->
 <details style="margin-top: 12px;">
@@ -150,9 +153,3 @@
     <img src="https://img.shields.io/badge/steinberg-1e293b?style=flat-square&logo=steinberg&logoColor=00f5d4" alt="Steinberg" />
   </div>
 </details>
-
-<br />
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d9488&height=80&section=footer" width="100%" />
-</p>
