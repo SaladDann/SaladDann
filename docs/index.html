@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaladDann — Proyectos</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- Encabezado principal -->
+        <header class="panel header-panel">
+            <div class="header-row">
+                <div>
+                    <h1 class="brand-title">SaladDann</h1>
+                    <p class="brand-sub">
+                        Proyectos, prototipos y experimentos técnicos — desarrollo móvil, software y exploración
+                        creativa.
+                    </p>
+                </div>
+                <a class="back-link" href="https://github.com/SaladDann" rel="noopener noreferrer">
+                    ← VOLVER AL PERFIL
+                </a>
+            </div>
+
+            <div class="rule"></div>
+
+            <!-- Métricas resumidas -->
+            <section class="stats-strip" aria-label="Resumen de proyectos">
+                <div class="stat-item">
+                    <span class="stat-num c-blue" id="kpi-total">—</span>
+                    <span class="stat-key">Proyectos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num c-mint" id="kpi-originals">—</span>
+                    <span class="stat-key">Originales</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num c-lavender" id="kpi-featured">—</span>
+                    <span class="stat-key">Destacados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num c-yellow" id="kpi-langs">—</span>
+                    <span class="stat-key">Lenguajes</span>
+                </div>
+            </section>
+        </header>
+
+        <!-- Sección de proyectos destacados (cada uno como card independiente) -->
+        <section class="panel block" id="featured-section" hidden>
+            <div class="block-head">
+                <h2 class="block-label">Destacados</h2>
+                <span class="block-meta">Selección</span>
+            </div>
+            <div class="cards-grid" id="featured-grid" role="list" aria-label="Proyectos destacados"></div>
+        </section>
+
+        <!-- Catálogo completo por año (cada proyecto como card independiente) -->
+        <section class="panel block" aria-label="Catálogo de proyectos">
+            <div class="block-head">
+                <h2 class="block-label">Repositorios</h2>
+                <span class="block-meta" id="results-count">Cargando...</span>
+            </div>
+
+            <div class="controls">
+                <div class="tabs" role="group" aria-label="Filtrar por tipo">
+                    <button type="button" class="tab active" data-filter-type="all">Todos</button>
+                    <button type="button" class="tab" data-filter-type="original">Originales</button>
+                    <button type="button" class="tab" data-filter-type="fork">Forks</button>
+                </div>
+
+                <div class="inputs">
+                    <select class="ctrl-select" id="lang-filter" aria-label="Filtrar por lenguaje">
+                        <option value="all">Lenguaje: Todos</option>
+                    </select>
+                    <input class="ctrl-search" type="search" id="search-input"
+                        placeholder="Filtrar por nombre o texto..." aria-label="Buscar proyecto" />
+                </div>
+            </div>
+
+            <div id="catalog-container" aria-live="polite"></div>
+        </section>
+
+        <!-- Pie de página -->
+        <footer class="panel foot-note">
+            <div class="foot-left">
+                <span id="generated-meta">Sincronizado vía GitHub</span>
+                <img class="foot-wave" src="../assets/05-easter-waveform.svg" alt=""
+                    onerror="this.style.display='none'" />
+            </div>
+            <a href="https://github.com/SaladDann" rel="noopener noreferrer">github.com/SaladDann</a>
+        </footer>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

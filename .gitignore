@@ -1,0 +1,12 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor local
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
