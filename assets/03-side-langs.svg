@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 116" width="260" height="116">
-  <text x="14" y="22" font-family="sans-serif" font-size="11" font-weight="600" fill="#808080" letter-spacing="1.2">LENGUAJES</text>
-  <line x1="14" y1="30" x2="246" y2="30" stroke="#808080" stroke-opacity="0.2" stroke-width="1" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
+  <text x="14" y="20" font-family="sans-serif" font-size="11" font-weight="600" fill="#808080" letter-spacing="1.2">LENGUAJES</text>
+  <line x1="14" y1="28" x2="406" y2="28" stroke="#808080" stroke-opacity="0.2" stroke-width="1" />
 
-  <rect x="14.0" y="40" width="216.4" height="7" rx="3.5" fill="#A2D2FF" />
-  <rect x="232.9" y="40" width="13.1" height="7" rx="3.5" fill="#CDB4DB" />
+  <rect x="14.0" y="40" width="366.8" height="8" rx="4" fill="#A2D2FF" />
+  <rect x="383.8" y="40" width="22.2" height="8" rx="4" fill="#CDB4DB" />
 
-  <circle cx="18" cy="68" r="3.5" fill="#A2D2FF" />
-  <text x="27" y="72" font-family="monospace" font-size="10.5" fill="#808080">Python 94.3%</text>
-  <circle cx="136" cy="68" r="3.5" fill="#CDB4DB" />
-  <text x="145" y="72" font-family="monospace" font-size="10.5" fill="#808080">Dart 5.7%</text>
+  <circle cx="24" cy="76" r="4" fill="#A2D2FF" />
+  <text x="34" y="80" font-family="monospace" font-size="11.5" fill="#808080">Python 94.3%</text>
+  <circle cx="220" cy="76" r="4" fill="#CDB4DB" />
+  <text x="230" y="80" font-family="monospace" font-size="11.5" fill="#808080">Dart 5.7%</text>
 </svg>

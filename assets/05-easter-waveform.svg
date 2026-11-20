@@ -1,13 +1,13 @@
 <svg width="160" height="24" viewBox="0 0 320 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ecualizador líquido pastel con mensaje cromático: el ser como arte y arte como vida">
   <defs>
-    <!-- Filtro líquido: fusiona barras y gotas en una onda fluida y orgánica -->
+    <!-- Filtro líquido calibrado para mantener definición a 24px de alto -->
     <filter id="liquidWave" x="-15%" y="-35%" width="130%" height="170%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2.4" result="blur" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.1" result="blur" />
       <feColorMatrix in="blur" values="
         1 0 0 0 0
         0 1 0 0 0
         0 0 1 0 0
-        0 0 0 22 -8" result="goo" />
+        0 0 0 18 -6" result="goo" />
       <feComposite in="SourceGraphic" in2="goo" operator="atop" />
     </filter>
 

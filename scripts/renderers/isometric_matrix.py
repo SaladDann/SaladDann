@@ -1,18 +1,17 @@
 from .theme import PALETTE
 
 LANG_PALETTE = [
-    PALETTE["blue"],      # #A2D2FF
-    PALETTE["mint"],      # #B7E4C7
-    PALETTE["lavender"],  # #CDB4DB
-    PALETTE["peach"],     # #FBC4AB
-    PALETTE["yellow"],    # #FFF3B0
-    PALETTE["pink"],      # #FFAFCC
-    PALETTE["cyan"],      # #8ECAE6
+    PALETTE["blue"],
+    PALETTE["mint"],
+    PALETTE["lavender"],
+    PALETTE["peach"],
+    PALETTE["yellow"],
+    PALETTE["pink"],
+    PALETTE["cyan"],
 ]
 
 
 def _shade_hex(hex_color: str, factor: float) -> str:
-    """Oscurece o aclara un color hexadecimal para generar las caras lateral izquierda y derecha."""
     h = hex_color.lstrip("#")
     if len(h) != 6:
         return hex_color
@@ -23,7 +22,6 @@ def _shade_hex(hex_color: str, factor: float) -> str:
 
 
 def _extract_language_slots(data: dict) -> list[dict]:
-    """Obtiene los lenguajes reales desde metrics.json y les asigna un color pastel y glifo geométrico."""
     raw_langs = data.get("languages") or data.get("top_languages") or []
     slots = []
 
@@ -34,61 +32,52 @@ def _extract_language_slots(data: dict) -> list[dict]:
 
     for idx, item in enumerate(items[:6]):
         base_color = LANG_PALETTE[idx % len(LANG_PALETTE)]
-        slots.append(
-            {
+        slots.append({
+            "idx": idx,
+            "top": base_color,
+            "left": _shade_hex(base_color, 0.84),
+            "right": _shade_hex(base_color, 0.68),
+            "glyph": idx % 5,
+        })
+
+    if not slots:
+        for idx in range(4):
+            base_color = LANG_PALETTE[idx]
+            slots.append({
                 "idx": idx,
                 "top": base_color,
                 "left": _shade_hex(base_color, 0.84),
                 "right": _shade_hex(base_color, 0.68),
                 "glyph": idx % 5,
-            }
-        )
-
-    if not slots:
-        for idx in range(4):
-            base_color = LANG_PALETTE[idx]
-            slots.append(
-                {
-                    "idx": idx,
-                    "top": base_color,
-                    "left": _shade_hex(base_color, 0.84),
-                    "right": _shade_hex(base_color, 0.68),
-                    "glyph": idx % 5,
-                }
-            )
+            })
     return slots
 
 
 def _render_top_glyph(cx: float, cy: float, glyph_id: int) -> str:
-    """Dibuja un identificador geométrico minimalista sobre la cara superior del prisma (sin texto)."""
     stroke = "#1e293b"
+    opacity = "0.58"
     if glyph_id == 0:
-        # Rombo isométrico hueco
         return (
             f'<polygon points="{cx},{cy - 3.0} {cx + 5.2},{cy} {cx},{cy + 3.0} {cx - 5.2},{cy}" '
-            f'fill="none" stroke="{stroke}" stroke-opacity="0.45" stroke-width="1.1" />'
+            f'fill="none" stroke="{stroke}" stroke-opacity="{opacity}" stroke-width="1.2" />'
         )
     if glyph_id == 1:
-        # Anillo isométrico
         return (
             f'<ellipse cx="{cx}" cy="{cy}" rx="4.2" ry="2.3" '
-            f'fill="none" stroke="{stroke}" stroke-opacity="0.45" stroke-width="1.1" />'
+            f'fill="none" stroke="{stroke}" stroke-opacity="{opacity}" stroke-width="1.2" />'
         )
     if glyph_id == 2:
-        # Cruz isométrica
         return (
             f'<path d="M {cx - 3.6} {cy - 1.8} L {cx + 3.6} {cy + 1.8} '
             f'M {cx - 3.6} {cy + 1.8} L {cx + 3.6} {cy - 1.8}" '
-            f'stroke="{stroke}" stroke-opacity="0.45" stroke-width="1.15" stroke-linecap="round" />'
+            f'stroke="{stroke}" stroke-opacity="{opacity}" stroke-width="1.25" stroke-linecap="round" />'
         )
     if glyph_id == 3:
-        # Núcleo sólido
-        return f'<ellipse cx="{cx}" cy="{cy}" rx="2.6" ry="1.4" fill="{stroke}" fill-opacity="0.45" />'
-    # Doble trazo diagonal
+        return f'<ellipse cx="{cx}" cy="{cy}" rx="2.8" ry="1.5" fill="{stroke}" fill-opacity="{opacity}" />'
     return (
         f'<path d="M {cx - 2.8} {cy + 1.6} L {cx + 1.2} {cy - 2.2} '
         f'M {cx - 0.6} {cy + 2.2} L {cx + 3.4} {cy - 1.6}" '
-        f'stroke="{stroke}" stroke-opacity="0.45" stroke-width="1.1" stroke-linecap="round" />'
+        f'stroke="{stroke}" stroke-opacity="{opacity}" stroke-width="1.2" stroke-linecap="round" />'
     )
 
 
@@ -102,7 +91,6 @@ def render_isometric(data: dict) -> str:
     num_langs = len(lang_slots)
     max_count = max((d.get("contributionCount", 0) for d in days), default=1) or 1
 
-    # Paso de rejilla ligeramente mayor al tamaño del prisma (18x9) para dejar espacio limpio entre bloques
     step_x = 20.5
     step_y = 10.25
     bw = 17.5
@@ -125,7 +113,6 @@ def render_isometric(data: dict) -> str:
             )
             continue
 
-        # Asignar lenguaje de forma determinista según día/actividad para reflejar el stack real
         lang = lang_slots[(idx + count) % num_langs]
         top_c, left_c, right_c = lang["top"], lang["left"], lang["right"]
 
@@ -148,23 +135,22 @@ def render_isometric(data: dict) -> str:
             f'    </g>'
         )
 
-    # Mini leyenda icónica sin palabras en la esquina superior derecha
     legend_items = []
-    legend_start_x = 406.0 - (num_langs * 18.0)
+    legend_start_x = 406.0 - (num_langs * 20.0)
     for idx, slot in enumerate(lang_slots):
-        lx = round(legend_start_x + idx * 18.0 + 6.0, 1)
+        lx = round(legend_start_x + idx * 20.0 + 7.0, 1)
         ly = 16.0
         legend_items.append(
-            f'    <rect x="{lx - 6:.1f}" y="{ly - 6:.1f}" width="12" height="12" rx="3" fill="{slot["top"]}" />'
+            f'    <rect x="{lx - 7:.1f}" y="{ly - 7:.1f}" width="14" height="14" rx="3.5" fill="{slot["top"]}" />'
             f'    {_render_top_glyph(lx, ly, slot["glyph"])}'
         )
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 182" width="420" height="182">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
   <text x="14" y="20" font-family="sans-serif" font-size="11" font-weight="600" fill="{PALETTE['neutral']}" letter-spacing="1.2">MATRIZ ISOMÉTRICA (25D)</text>
 {chr(10).join(legend_items)}
   <line x1="14" y1="28" x2="406" y2="28" stroke="{PALETTE['neutral']}" stroke-opacity="0.2" stroke-width="1" />
 
-  <g transform="translate(192.5, 68)">
+  <g transform="translate(192.5, 52)">
 {chr(10).join(blocks)}
   </g>
 </svg>

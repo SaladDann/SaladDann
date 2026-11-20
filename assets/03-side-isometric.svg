@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 182" width="420" height="182">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
   <text x="14" y="20" font-family="sans-serif" font-size="11" font-weight="600" fill="#808080" letter-spacing="1.2">MATRIZ ISOMÉTRICA (25D)</text>
-    <rect x="370.0" y="10.0" width="12" height="12" rx="3" fill="#A2D2FF" />    <polygon points="376.0,13.0 381.2,16.0 376.0,19.0 370.8,16.0" fill="none" stroke="#1e293b" stroke-opacity="0.45" stroke-width="1.1" />
-    <rect x="388.0" y="10.0" width="12" height="12" rx="3" fill="#B7E4C7" />    <ellipse cx="394.0" cy="16.0" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.45" stroke-width="1.1" />
+    <rect x="366.0" y="9.0" width="14" height="14" rx="3.5" fill="#A2D2FF" />    <polygon points="373.0,13.0 378.2,16.0 373.0,19.0 367.8,16.0" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
+    <rect x="386.0" y="9.0" width="14" height="14" rx="3.5" fill="#B7E4C7" />    <ellipse cx="393.0" cy="16.0" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
   <line x1="14" y1="28" x2="406" y2="28" stroke="#808080" stroke-opacity="0.2" stroke-width="1" />
 
-  <g transform="translate(192.5, 68)">
+  <g transform="translate(192.5, 52)">
     <polygon points="0.0,0.0 17.5,-8.75 35.0,0.0 17.5,8.75" fill="#808080" fill-opacity="0.14" />
     <polygon points="20.5,10.25 38.0,1.5 55.5,10.25 38.0,19.0" fill="#808080" fill-opacity="0.14" />
     <polygon points="41.0,20.5 58.5,11.75 76.0,20.5 58.5,29.25" fill="#808080" fill-opacity="0.14" />
@@ -31,28 +31,28 @@
       <polygon points="-61.5,32.25 -44.0,23.5 -26.5,32.25 -44.0,41.0" fill="#B7E4C7" />
       <polygon points="-61.5,32.25 -44.0,41.0 -44.0,60.0 -61.5,51.25" fill="#99bfa7" />
       <polygon points="-44.0,41.0 -26.5,32.25 -26.5,51.25 -44.0,60.0" fill="#7c9b87" />
-      <ellipse cx="-44.0" cy="32.25" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.45" stroke-width="1.1" />
+      <ellipse cx="-44.0" cy="32.25" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="3.76s" begin="0.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
       <polygon points="-41.0,35.5 -23.5,26.75 -6.0,35.5 -23.5,44.25" fill="#A2D2FF" />
       <polygon points="-41.0,35.5 -23.5,44.25 -23.5,70.25 -41.0,61.5" fill="#88b0d6" />
       <polygon points="-23.5,44.25 -6.0,35.5 -6.0,61.5 -23.5,70.25" fill="#6e8ead" />
-      <polygon points="-23.5,32.5 -18.3,35.5 -23.5,38.5 -28.7,35.5" fill="none" stroke="#1e293b" stroke-opacity="0.45" stroke-width="1.1" />
+      <polygon points="-23.5,32.5 -18.3,35.5 -23.5,38.5 -28.7,35.5" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="4.04s" begin="0.50s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
       <polygon points="-20.5,58.75 -3.0,50.0 14.5,58.75 -3.0,67.5" fill="#B7E4C7" />
       <polygon points="-20.5,58.75 -3.0,67.5 -3.0,80.5 -20.5,71.75" fill="#99bfa7" />
       <polygon points="-3.0,67.5 14.5,58.75 14.5,71.75 -3.0,80.5" fill="#7c9b87" />
-      <ellipse cx="-3.0" cy="58.75" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.45" stroke-width="1.1" />
+      <ellipse cx="-3.0" cy="58.75" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0" dur="4.32s" begin="0.75s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
       <polygon points="0.0,71.0 17.5,62.25 35.0,71.0 17.5,79.75" fill="#B7E4C7" />
       <polygon points="0.0,71.0 17.5,79.75 17.5,90.75 0.0,82.0" fill="#99bfa7" />
       <polygon points="17.5,79.75 35.0,71.0 35.0,82.0 17.5,90.75" fill="#7c9b87" />
-      <ellipse cx="17.5" cy="71.0" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.45" stroke-width="1.1" />
+      <ellipse cx="17.5" cy="71.0" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
     </g>
   </g>
 </svg>
