@@ -11,7 +11,7 @@
 
   <!-- TOTAL -->
   <g transform="translate(82.5, 48)">
-    <text x="0" y="32" text-anchor="middle" fill="#A2D2FF" font-family="monospace" font-weight="700" font-size="28">63</text>
+    <text x="0" y="32" text-anchor="middle" fill="#A2D2FF" font-family="monospace" font-weight="700" font-size="28">65</text>
   </g>
   <g transform="translate(82.5, 84)">
     <text x="0" y="32" text-anchor="middle" fill="#808080" font-family="sans-serif" font-weight="500" font-size="13.5">Total Contributions</text>

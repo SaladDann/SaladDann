@@ -49,10 +49,10 @@
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0" dur="4.32s" begin="0.75s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="0.0,74.0 17.5,65.25 35.0,74.0 17.5,82.75" fill="#B7E4C7" />
-      <polygon points="0.0,74.0 17.5,82.75 17.5,90.75 0.0,82.0" fill="#99bfa7" />
-      <polygon points="17.5,82.75 35.0,74.0 35.0,82.0 17.5,90.75" fill="#7c9b87" />
-      <ellipse cx="17.5" cy="74.0" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.45" stroke-width="1.1" />
+      <polygon points="0.0,71.0 17.5,62.25 35.0,71.0 17.5,79.75" fill="#B7E4C7" />
+      <polygon points="0.0,71.0 17.5,79.75 17.5,90.75 0.0,82.0" fill="#99bfa7" />
+      <polygon points="17.5,79.75 35.0,71.0 35.0,82.0 17.5,90.75" fill="#7c9b87" />
+      <ellipse cx="17.5" cy="71.0" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.45" stroke-width="1.1" />
     </g>
   </g>
 </svg>
