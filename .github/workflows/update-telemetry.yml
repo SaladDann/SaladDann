@@ -1,67 +1,4 @@
-name: Update Profile Telemetry
-
-on:
-  schedule:
-    # Todos los días a las 00:17 UTC
-    - cron: "17 0 * * *"
-
-  workflow_dispatch:
-    inputs:
-      cartridge:
-        description: "Cartucho específico. Vacío = selección automática"
-        required: false
-        type: string
-        default: ""
-
-  push:
-    paths:
-      - "scripts/**"
-      - "data/projects.json"
-      - "docs/**"
-      - ".github/workflows/update-telemetry.yml"
-
-permissions:
-  contents: write
-
-# Evita dos ejecuciones simultáneas sobre el mismo repositorio.
-concurrency:
-  group: profile-telemetry-${{ github.ref }}
-  cancel-in-progress: false
-
-jobs:
-  update-svgs:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Fetch real GitHub metrics
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_ACTOR: ${{ github.repository_owner }}
-        run: python scripts/fetch_metrics.py
-
-      - name: Fetch projects catalog
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_ACTOR: ${{ github.repository_owner }}
-        run: python scripts/fetch_projects.py
-
-      - name: Render modular SVGs
-        env:
-          CONTRIB_CARTRIDGE: ${{ inputs.cartridge || '' }}
-        run: python scripts/render_svgs.py
-
-      - name: Commit and push generated assets
+- name: Commit and push generated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -83,4 +20,25 @@ jobs:
           fi
 
           git commit -m "chore(telemetry): update profile SVGs and projects catalog"
-          git push
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "[OK] Cambios publicados en main."
+              exit 0
+            fi
+
+            echo "[WARN] Push rechazado (intento $attempt/3). Sincronizando con origin/main..."
+            if ! git pull --rebase origin main; then
+              echo "[WARN] Conflicto al hacer rebase en archivos generados; aplicando versión local generada."
+              git checkout --ours -- data/metrics.json data/projects.json assets/ docs/ 2>/dev/null || true
+              git add -- data/metrics.json data/projects.json assets/ docs/
+              git rebase --continue || {
+                git rebase --abort
+                echo "[ERROR] No se pudo completar el rebase automáticamente."
+                exit 1
+              }
+            fi
+          done
+
+          echo "[ERROR] Falló el push tras 3 intentos."
+          exit 1
