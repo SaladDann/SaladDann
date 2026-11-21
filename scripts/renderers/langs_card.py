@@ -42,8 +42,8 @@ def render_langs(data: dict) -> str:
         label_text = f"{esc(name)} {pct_str}%"
 
         labels_svg.append(
-            f'  <circle cx="{cx}" cy="{cy}" r="4" fill="{color}" />\n'
-            f'  <text x="{cx + 10}" y="{cy + 4}" font-family="monospace" font-size="11.5" fill="{neutral_color}">{label_text}</text>'
+            f'  <circle cx="{cx}" cy="{cy}" r="4.5" fill="{color}" />\n'
+            f'  <text x="{cx + 12}" y="{cy + 4.5}" font-family="monospace" font-size="13.5" fill="{neutral_color}">{label_text}</text>'
         )
 
     bars_block = "\n".join(bars_svg)
