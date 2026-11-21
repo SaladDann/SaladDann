@@ -39,13 +39,13 @@
 
   <!-- FILA 2: MÉTRICAS EN VIVO (RACHA Y ESTADÍSTICAS REALES) -->
   <tr>
-  <td colspan="2" width="860" align="center" valign="middle">
-    <div style="display:flex; justify-content:center; align-items:center;">
-      <img  width="70%" src="./assets/02-metrics-streak.svg" height="165" alt="Racha de contribuciones" />      
-      <img  width="28%" src="./assets/02-metrics-stats.svg" height="165" alt="Estadísticas generales" />      
-    </div>
-  </td>
-</tr>
+    <td colspan="2" width="860" align="center" valign="middle">
+      <div style="display:flex; justify-content:center; align-items:center; width:100%; gap:20px;">
+        <img  width="70%" src="./assets/02-metrics-streak.svg" height="165" alt="Racha de contribuciones" />      
+        <img  width="28%" src="./assets/02-metrics-stats.svg" height="165" alt="Estadísticas generales" />      
+      </div>
+    </td>
+  </tr>
 
   <!-- FILA 3: ECOSISTEMA -->
   <tr>
