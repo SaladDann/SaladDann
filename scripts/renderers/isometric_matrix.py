@@ -1,14 +1,4 @@
-from .theme import PALETTE
-
-LANG_PALETTE = [
-    PALETTE["blue"],
-    PALETTE["mint"],
-    PALETTE["lavender"],
-    PALETTE["peach"],
-    PALETTE["yellow"],
-    PALETTE["pink"],
-    PALETTE["cyan"],
-]
+from .theme import PALETTE, get_language_color
 
 
 def _shade_hex(hex_color: str, factor: float) -> str:
@@ -31,9 +21,15 @@ def _extract_language_slots(data: dict) -> list[dict]:
         items = list(raw_langs)
 
     for idx, item in enumerate(items[:6]):
-        base_color = LANG_PALETTE[idx % len(LANG_PALETTE)]
+        if isinstance(item, dict):
+            name = str(item.get("name") or item.get("language") or f"Lang {idx}")
+        else:
+            name = str(item)
+
+        base_color = get_language_color(name, fallback_idx=idx)
         slots.append({
             "idx": idx,
+            "name": name,
             "top": base_color,
             "left": _shade_hex(base_color, 0.84),
             "right": _shade_hex(base_color, 0.68),
@@ -41,10 +37,12 @@ def _extract_language_slots(data: dict) -> list[dict]:
         })
 
     if not slots:
-        for idx in range(4):
-            base_color = LANG_PALETTE[idx]
+        default_names = ["TypeScript", "Python", "Dart", "JavaScript"]
+        for idx, name in enumerate(default_names):
+            base_color = get_language_color(name, fallback_idx=idx)
             slots.append({
                 "idx": idx,
+                "name": name,
                 "top": base_color,
                 "left": _shade_hex(base_color, 0.84),
                 "right": _shade_hex(base_color, 0.68),
