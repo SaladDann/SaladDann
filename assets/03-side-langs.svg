@@ -5,8 +5,8 @@
   <rect x="14.0" y="40" width="366.4" height="8" rx="4" fill="#B7E4C7" />
   <rect x="383.4" y="40" width="22.6" height="8" rx="4" fill="#8ECAE6" />
 
-  <circle cx="24" cy="76" r="4" fill="#B7E4C7" />
-  <text x="34" y="80" font-family="monospace" font-size="11.5" fill="#808080">Python 94.2%</text>
-  <circle cx="220" cy="76" r="4" fill="#8ECAE6" />
-  <text x="230" y="80" font-family="monospace" font-size="11.5" fill="#808080">Dart 5.8%</text>
+  <circle cx="24" cy="76" r="4.5" fill="#B7E4C7" />
+  <text x="36" y="80.5" font-family="monospace" font-size="13.5" fill="#808080">Python 94.2%</text>
+  <circle cx="220" cy="76" r="4.5" fill="#8ECAE6" />
+  <text x="232" y="80.5" font-family="monospace" font-size="13.5" fill="#808080">Dart 5.8%</text>
 </svg>
