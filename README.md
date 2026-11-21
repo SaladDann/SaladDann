@@ -39,60 +39,60 @@
 
   <!-- FILA 2: MÉTRICAS EN VIVO (RACHA Y ESTADÍSTICAS REALES) -->
   <tr>
-    <td colspan="2" width="860" align="center" valign="middle">
-    <div style=" display:flex; justify-content:center; align-items:center; width:100%; gap:12%;">
-      <img width="60%" src="./assets/02-metrics-streak.svg" height="165" alt="Racha de contribuciones" />
-      <img width="29%" src="./assets/02-metrics-stats.svg" height="165" alt="Estadísticas generales" />
+  <td colspan="2" width="860" align="center" valign="middle">
+    <div style="display:flex; justify-content:center; align-items:center;">
+      <img  width="70%" src="./assets/02-metrics-streak.svg" height="165" alt="Racha de contribuciones" />      
+      <img  width="28%" src="./assets/02-metrics-stats.svg" height="165" alt="Estadísticas generales" />      
     </div>
-    </td>
-  </tr>
+  </td>
+</tr>
 
   <!-- FILA 3: ECOSISTEMA -->
   <tr>
     <td width="70%" align="center" valign="middle">
-      <img loading="lazy" src="./assets/03-stack-title.svg" width="300" alt="Stack y herramientas" />
+      <img loading="lazy" src="./assets/03-stack-title.svg" height="22" width="300" alt="Stack y herramientas" />
       <p>
         <!-- Lenguajes -->
-        <img loading="lazy" src="https://api.iconify.design/mdi/language-typescript.svg?color=%23A2D2FF&width=20&height=20" alt="TypeScript" title="TypeScript" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/language-javascript.svg?color=%23FFF3B0&width=20&height=20" alt="JavaScript" title="JavaScript" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/language-csharp.svg?color=%23CDB4DB&width=20&height=20" alt="C#" title="C#" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/language-java.svg?color=%23FBC4AB&width=20&height=20" alt="Java" title="Java" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/language-python.svg?color=%23B7E4C7&width=20&height=20" alt="Python" title="Python" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/language-typescript.svg?color=%23A2D2FF&width=22&height=22" alt="TypeScript" title="TypeScript" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/language-javascript.svg?color=%23FFF3B0&width=22&height=22" alt="JavaScript" title="JavaScript" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/language-csharp.svg?color=%23CDB4DB&width=22&height=22" alt="C#" title="C#" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/language-java.svg?color=%23FBC4AB&width=22&height=22" alt="Java" title="Java" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/language-python.svg?color=%23B7E4C7&width=22&height=22" alt="Python" title="Python" />
       </p>
       <p>
         <!-- Frameworks y datos -->
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/dart.svg?color=%238ECAE6&width=20&height=20" alt="Dart" title="Dart" />
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/flutter.svg?color=%238ECAE6&width=20&height=20" alt="Flutter" title="Flutter" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/react.svg?color=%23A2D2FF&width=20&height=20" alt="React" title="React" />
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/vite.svg?color=%23CDB4DB&width=20&height=20" alt="Vite" title="Vite" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/nodejs.svg?color=%23B7E4C7&width=20&height=20" alt="Node.js" title="Node.js" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/dot-net.svg?color=%23CED4DA&width=20&height=20" alt=".NET" title=".NET" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/dart.svg?color=%238ECAE6&width=22&height=22" alt="Dart" title="Dart" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/flutter.svg?color=%238ECAE6&width=22&height=22" alt="Flutter" title="Flutter" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/react.svg?color=%23A2D2FF&width=22&height=22" alt="React" title="React" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/vite.svg?color=%23CDB4DB&width=22&height=22" alt="Vite" title="Vite" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/nodejs.svg?color=%23B7E4C7&width=22&height=22" alt="Node.js" title="Node.js" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/dot-net.svg?color=%23CED4DA&width=22&height=22" alt=".NET" title=".NET" />
       </p>
       <p>
         <!-- Bases de datos -->
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/postgresql.svg?color=%23A2D2FF&width=20&height=20" alt="PostgreSQL" title="PostgreSQL" />
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/mysql.svg?color=%238ECAE6&width=20&height=20" alt="MySQL" title="MySQL" />
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/prisma.svg?color=%23CED4DA&width=20&height=20" alt="Prisma" title="Prisma" />
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/mongodb.svg?color=%23B7E4C7&width=20&height=20" alt="Supabase" title="MongoDB" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/postgresql.svg?color=%23A2D2FF&width=22&height=22" alt="PostgreSQL" title="PostgreSQL" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/mysql.svg?color=%238ECAE6&width=22&height=22" alt="MySQL" title="MySQL" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/prisma.svg?color=%23CED4DA&width=22&height=22" alt="Prisma" title="Prisma" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/mongodb.svg?color=%23B7E4C7&width=22&height=22" alt="Supabase" title="MongoDB" />
       </p>
       <p>
         <!-- Cloud y entorno -->
-        <img loading="lazy" src="https://api.iconify.design/mdi/docker.svg?color=%23A2D2FF&width=20&height=20" alt="Docker" title="Docker" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/google-cloud.svg?color=%23FFADAD&width=20&height=20" alt="Google Cloud" title="Google Cloud" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/linux.svg?color=%23FFF3B0&width=20&height=20" alt="Linux" title="Linux" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/git.svg?color=%23FBC4AB&width=20&height=20" alt="Git" title="Git" />
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/postman.svg?color=%23FBC4AB&width=20&height=20" alt="Postman" title="Postman" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/docker.svg?color=%23A2D2FF&width=22&height=22" alt="Docker" title="Docker" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/google-cloud.svg?color=%23FFADAD&width=22&height=22" alt="Google Cloud" title="Google Cloud" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/linux.svg?color=%23FFF3B0&width=22&height=22" alt="Linux" title="Linux" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/git.svg?color=%23FBC4AB&width=22&height=22" alt="Git" title="Git" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/postman.svg?color=%23FBC4AB&width=22&height=22" alt="Postman" title="Postman" />
       </p>
       <p>
         <!-- IDE y diseño -->
-        <img loading="lazy" src="https://api.iconify.design/mdi/microsoft-visual-studio-code.svg?color=%23A2D2FF&width=20&height=20" alt="VS Code" title="VS Code" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/microsoft-visual-studio.svg?color=%23CDB4DB&width=20&height=20" alt="Visual Studio" title="Visual Studio" />
-        <img loading="lazy" src="https://api.iconify.design/mdi/android-studio.svg?color=%23B7E4C7&width=20&height=20" alt="Android Studio" title="Android Studio" />
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/pycharm.svg?color=%23B7E4C7&width=20&height=20" alt="PyCharm" title="PyCharm" />
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/adobephotoshop.svg?color=%23A2D2FF&width=20&height=20" alt="Photoshop" title="Photoshop" />
-        <img loading="lazy" src="https://api.iconify.design/simple-icons/adobeillustrator.svg?color=%23FBC4AB&width=20&height=20" alt="Illustrator" title="Illustrator" />
-        <img src="https://api.iconify.design/simple-icons/steinberg.svg?color=%23FFADAD&width=20&height=20" alt="Steinberg" title="Steinberg / Cubase" />
-        <img src="./assets/03-stack-flstudio.svg" width="20" height="20" alt="FL Studio" title="FL Studio" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/microsoft-visual-studio-code.svg?color=%23A2D2FF&width=22&height=22" alt="VS Code" title="VS Code" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/microsoft-visual-studio.svg?color=%23CDB4DB&width=22&height=22" alt="Visual Studio" title="Visual Studio" />
+        <img loading="lazy" src="https://api.iconify.design/mdi/android-studio.svg?color=%23B7E4C7&width=22&height=22" alt="Android Studio" title="Android Studio" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/pycharm.svg?color=%23B7E4C7&width=22&height=20" alt="PyCharm" title="PyCharm" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/adobephotoshop.svg?color=%23A2D2FF&width=22&height=22" alt="Photoshop" title="Photoshop" />
+        <img loading="lazy" src="https://api.iconify.design/simple-icons/adobeillustrator.svg?color=%23FBC4AB&width=22&height=22" alt="Illustrator" title="Illustrator" />
+        <img src="https://api.iconify.design/simple-icons/steinberg.svg?color=%23FFADAD&width=22&height=22" alt="Steinberg" title="Steinberg / Cubase" />
+        <img src="./assets/03-stack-flstudio.svg" width="22" height="22" alt="FL Studio" title="FL Studio" />
       </p>
     </td>
     <td width="30%" align="center" valign="middle">
@@ -117,9 +117,9 @@
   <summary><sub>♪</sub></summary>
   <p align="left">
     <a href="https://open.spotify.com/intl-es/artist/67BdlNDvFCa6aRWlcrlWUy" target="_blank" rel="noopener noreferrer" title="Spotify Artist">
-      <img src="https://api.iconify.design/mdi/spotify.svg?color=%23B7E4C7&width=20&height=20" alt="Spotify Artist" align="middle" />
+      <img src="https://api.iconify.design/mdi/spotify.svg?color=%23B7E4C7&width=22&height=22" alt="Spotify Artist" align="middle" />
       &nbsp;
-      <img src="./assets/05-easter-waveform.svg" height="20" alt="Audio Waveform" align="middle" />
+      <img src="./assets/05-easter-waveform.svg" height="22" alt="Audio Waveform" align="middle" />
     </a>
   </p>
 </details>
