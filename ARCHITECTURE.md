@@ -54,10 +54,7 @@ SaladDann/
 │           ├── cloud_rain.py
 │           ├── invaders.py
 │           ├── keroppi.py
-│           ├── mario.py
 │           ├── pacman.py
-│           ├── pokemon.py
-│           ├── scanner.py
 │           └── snake.py
 │
 ├── .gitignore
@@ -150,10 +147,7 @@ Una vez finalizado el período de estreno, la consola alterna determinísticamen
 | `cloud_rain.py` | 12 nubes mensuales con lluvia binaria, relámpagos y ondas proporcionales |
 | `invaders.py` | Intercepción arcade de naves pixel-art descendentes con cierre `YOU WIN!` |
 | `keroppi.py` | Saltos parabólicos de Kero Kero Keroppi sobre nenúfares, flores de loto y ondas de mayor alcance sobre estanque translúcido |
-| `mario.py` | Scroll lateral con bloques `?` (monedas, hongo y estrella), Goomba y castillo con pirotecnia |
 | `pacman.py` | Evasión por el tablero y contraataque final contra fantasmas vulnerables |
-| `pokemon.py` | Exploración en la hierba alta y captura de Pokémon salvajes con Pokébolas |
-| `scanner.py` | Interfaz de exploración y detección de actividad |
 | `snake.py` | Serpiente ortogonal estilo `snk` devorando contribuciones dispersas de menor a mayor |
 
 ---
