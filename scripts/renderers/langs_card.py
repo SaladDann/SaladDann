@@ -1,4 +1,4 @@
-from .theme import LANG_COLORS, PALETTE, esc
+from .theme import PALETTE, esc, get_language_color
 
 
 def render_langs(data: dict) -> str:
@@ -18,7 +18,8 @@ def render_langs(data: dict) -> str:
 
     curr_x = float(bar_x)
     for idx, item in enumerate(langs):
-        color = LANG_COLORS[idx % len(LANG_COLORS)]
+        name = str(item.get("name", "Code"))
+        color = get_language_color(name, fallback_idx=idx)
         pct = float(item.get("percent", 0))
         ratio = pct / total_pct
 
@@ -37,7 +38,7 @@ def render_langs(data: dict) -> str:
         cy = 76 + row * 26
 
         pct_str = f"{pct:.1f}".rstrip("0").rstrip(".")
-        label_text = f"{esc(item['name'])} {pct_str}%"
+        label_text = f"{esc(name)} {pct_str}%"
 
         labels_svg.append(
             f'  <circle cx="{cx}" cy="{cy}" r="4" fill="{color}" />\n'
@@ -49,6 +50,10 @@ def render_langs(data: dict) -> str:
   <line x1="14" y1="28" x2="406" y2="28" stroke="{PALETTE['neutral']}" stroke-opacity="0.2" stroke-width="1" />
 
 {chr(10).join(bars_svg)}
+
+{chr(10).join(labels_svg)}
+</svg>
+"""
 
 {chr(10).join(labels_svg)}
 </svg>
