@@ -96,7 +96,7 @@
           fill="#0f172a" fill-opacity="0.72">FEB</text>
       </g>
     </g>
-    <ellipse cx="33.5" cy="116" rx="14.0" ry="2.2" fill="#A2D2FF" style="transform-origin: 33.5px 116px; animation: ripplePulse 3.6s ease-in-out -0.8s infinite;" />
+    <ellipse cx="33.5" cy="116" rx="13.9" ry="2.2" fill="#A2D2FF" style="transform-origin: 33.5px 116px; animation: ripplePulse 3.6s ease-in-out -0.8s infinite;" />
   </g>
   <g transform="translate(219.0, 6)" role="group" aria-label="MAR: 4 contribuciones en 2 días activos">
     <g mask="url(#slotRainMask)">
@@ -122,7 +122,7 @@
           fill="#0f172a" fill-opacity="0.72">MAR</text>
       </g>
     </g>
-    <ellipse cx="33.5" cy="116" rx="12.0" ry="2.2" fill="#A2D2FF" style="transform-origin: 33.5px 116px; animation: ripplePulse 3.6s ease-in-out -1.2s infinite;" />
+    <ellipse cx="33.5" cy="116" rx="11.9" ry="2.2" fill="#A2D2FF" style="transform-origin: 33.5px 116px; animation: ripplePulse 3.6s ease-in-out -1.2s infinite;" />
   </g>
   <g transform="translate(286.0, 6)" role="group" aria-label="ABR: 1 contribuciones en 1 días activos">
     <g mask="url(#slotRainMask)">
@@ -280,9 +280,9 @@
           fill="#0f172a" fill-opacity="0.72">OCT</text>
       </g>
     </g>
-    <ellipse cx="33.5" cy="116" rx="20.5" ry="2.2" fill="#B7E4C7" style="transform-origin: 33.5px 116px; animation: ripplePulse 2.7s ease-in-out -4.0s infinite;" />
+    <ellipse cx="33.5" cy="116" rx="20.2" ry="2.2" fill="#B7E4C7" style="transform-origin: 33.5px 116px; animation: ripplePulse 2.7s ease-in-out -4.0s infinite;" />
   </g>
-  <g transform="translate(755.0, 6)" role="group" aria-label="NOV: 32 contribuciones en 4 días activos">
+  <g transform="translate(755.0, 6)" role="group" aria-label="NOV: 33 contribuciones en 4 días activos">
     <g mask="url(#slotRainMask)">
       <g style="animation: rainStream 1.93s linear -4.95s infinite;">
         <text x="19.2" y="48" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#CDB4DB" fill-opacity="0.28">0</text><text x="19.2" y="59" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#CDB4DB" fill-opacity="0.28">0</text><ellipse cx="19.2" cy="67.5" rx="1.2" ry="2.8" fill="#CDB4DB" fill-opacity="0.72" /><text x="19.2" y="81" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#CDB4DB" fill-opacity="0.28">0</text><text x="19.2" y="92" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#CDB4DB" fill-opacity="0.28">0</text>
@@ -356,7 +356,7 @@
           fill="#0f172a" fill-opacity="0.72">FEB</text>
       </g>
     </g>
-    <ellipse cx="33.5" cy="116" rx="14.0" ry="2.2" fill="#A2D2FF" opacity="0.38" />
+    <ellipse cx="33.5" cy="116" rx="13.9" ry="2.2" fill="#A2D2FF" opacity="0.38" />
   </g>
   <g transform="translate(219.0, 6)">
     <text x="24.0" y="48" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#A2D2FF" fill-opacity="0.28">0</text><text x="24.0" y="59" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#A2D2FF" fill-opacity="0.28">0</text><text x="33.5" y="48" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#A2D2FF" fill-opacity="0.28">0</text>
@@ -371,7 +371,7 @@
           fill="#0f172a" fill-opacity="0.72">MAR</text>
       </g>
     </g>
-    <ellipse cx="33.5" cy="116" rx="12.0" ry="2.2" fill="#A2D2FF" opacity="0.38" />
+    <ellipse cx="33.5" cy="116" rx="11.9" ry="2.2" fill="#A2D2FF" opacity="0.38" />
   </g>
   <g transform="translate(286.0, 6)">
     <text x="28.8" y="48" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#808080" fill-opacity="0.28">0</text><text x="28.8" y="59" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#808080" fill-opacity="0.28">0</text><text x="38.2" y="48" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#808080" fill-opacity="0.28">0</text>
@@ -476,7 +476,7 @@
           fill="#0f172a" fill-opacity="0.72">OCT</text>
       </g>
     </g>
-    <ellipse cx="33.5" cy="116" rx="20.5" ry="2.2" fill="#B7E4C7" opacity="0.38" />
+    <ellipse cx="33.5" cy="116" rx="20.2" ry="2.2" fill="#B7E4C7" opacity="0.38" />
   </g>
   <g transform="translate(755.0, 6)">
     <text x="19.2" y="48" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#CDB4DB" fill-opacity="0.28">0</text><text x="19.2" y="59" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#CDB4DB" fill-opacity="0.28">0</text><text x="28.8" y="48" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#CDB4DB" fill-opacity="0.28">0</text>
