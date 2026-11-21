@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
   <text x="14" y="20" font-family="sans-serif" font-size="11" font-weight="600" fill="#808080" letter-spacing="1.2">MATRIZ ISOMÉTRICA (25D)</text>
-    <rect x="366.0" y="9.0" width="14" height="14" rx="3.5" fill="#A2D2FF" />    <polygon points="373.0,13.0 378.2,16.0 373.0,19.0 367.8,16.0" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
-    <rect x="386.0" y="9.0" width="14" height="14" rx="3.5" fill="#B7E4C7" />    <ellipse cx="393.0" cy="16.0" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
+    <rect x="366.0" y="9.0" width="14" height="14" rx="3.5" fill="#B7E4C7" />    <polygon points="373.0,13.0 378.2,16.0 373.0,19.0 367.8,16.0" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
+    <rect x="386.0" y="9.0" width="14" height="14" rx="3.5" fill="#8ECAE6" />    <ellipse cx="393.0" cy="16.0" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
   <line x1="14" y1="28" x2="406" y2="28" stroke="#808080" stroke-opacity="0.2" stroke-width="1" />
 
   <g transform="translate(192.5, 52)">
@@ -27,31 +27,31 @@
     <polygon points="20.5,71.75 38.0,63.0 55.5,71.75 38.0,80.5" fill="#808080" fill-opacity="0.14" />
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="3.20s" begin="1.50s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="-82.0,22.0 -64.5,13.25 -47.0,22.0 -64.5,30.75" fill="#A2D2FF" />
-      <polygon points="-82.0,22.0 -64.5,30.75 -64.5,49.75 -82.0,41.0" fill="#88b0d6" />
-      <polygon points="-64.5,30.75 -47.0,22.0 -47.0,41.0 -64.5,49.75" fill="#6e8ead" />
-      <polygon points="-64.5,19.0 -59.3,22.0 -64.5,25.0 -69.7,22.0" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
+      <polygon points="-82.0,24.0 -64.5,15.25 -47.0,24.0 -64.5,32.75" fill="#B7E4C7" />
+      <polygon points="-82.0,24.0 -64.5,32.75 -64.5,49.75 -82.0,41.0" fill="#99bfa7" />
+      <polygon points="-64.5,32.75 -47.0,24.0 -47.0,41.0 -64.5,49.75" fill="#7c9b87" />
+      <polygon points="-64.5,21.0 -59.3,24.0 -64.5,27.0 -69.7,24.0" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0" dur="3.48s" begin="0.00s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="-61.5,25.25 -44.0,16.5 -26.5,25.25 -44.0,34.0" fill="#B7E4C7" />
-      <polygon points="-61.5,25.25 -44.0,34.0 -44.0,60.0 -61.5,51.25" fill="#99bfa7" />
-      <polygon points="-44.0,34.0 -26.5,25.25 -26.5,51.25 -44.0,60.0" fill="#7c9b87" />
-      <ellipse cx="-44.0" cy="25.25" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
+      <polygon points="-61.5,29.25 -44.0,20.5 -26.5,29.25 -44.0,38.0" fill="#8ECAE6" />
+      <polygon points="-61.5,29.25 -44.0,38.0 -44.0,60.0 -61.5,51.25" fill="#77a9c1" />
+      <polygon points="-44.0,38.0 -26.5,29.25 -26.5,51.25 -44.0,60.0" fill="#60899c" />
+      <ellipse cx="-44.0" cy="29.25" rx="4.2" ry="2.3" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="3.76s" begin="0.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="-41.0,48.5 -23.5,39.75 -6.0,48.5 -23.5,57.25" fill="#A2D2FF" />
-      <polygon points="-41.0,48.5 -23.5,57.25 -23.5,70.25 -41.0,61.5" fill="#88b0d6" />
-      <polygon points="-23.5,57.25 -6.0,48.5 -6.0,61.5 -23.5,70.25" fill="#6e8ead" />
-      <polygon points="-23.5,45.5 -18.3,48.5 -23.5,51.5 -28.7,48.5" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
+      <polygon points="-41.0,50.5 -23.5,41.75 -6.0,50.5 -23.5,59.25" fill="#B7E4C7" />
+      <polygon points="-41.0,50.5 -23.5,59.25 -23.5,70.25 -41.0,61.5" fill="#99bfa7" />
+      <polygon points="-23.5,59.25 -6.0,50.5 -6.0,61.5 -23.5,70.25" fill="#7c9b87" />
+      <polygon points="-23.5,47.5 -18.3,50.5 -23.5,53.5 -28.7,50.5" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="4.04s" begin="0.50s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="-20.5,47.75 -3.0,39.0 14.5,47.75 -3.0,56.5" fill="#A2D2FF" />
-      <polygon points="-20.5,47.75 -3.0,56.5 -3.0,80.5 -20.5,71.75" fill="#88b0d6" />
-      <polygon points="-3.0,56.5 14.5,47.75 14.5,71.75 -3.0,80.5" fill="#6e8ead" />
-      <polygon points="-3.0,44.75 2.2,47.75 -3.0,50.75 -8.2,47.75" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
+      <polygon points="-20.5,45.75 -3.0,37.0 14.5,45.75 -3.0,54.5" fill="#B7E4C7" />
+      <polygon points="-20.5,45.75 -3.0,54.5 -3.0,80.5 -20.5,71.75" fill="#99bfa7" />
+      <polygon points="-3.0,54.5 14.5,45.75 14.5,71.75 -3.0,80.5" fill="#7c9b87" />
+      <polygon points="-3.0,42.75 2.2,45.75 -3.0,48.75 -8.2,45.75" fill="none" stroke="#1e293b" stroke-opacity="0.58" stroke-width="1.2" />
     </g>
     <polygon points="0.0,82.0 17.5,73.25 35.0,82.0 17.5,90.75" fill="#808080" fill-opacity="0.14" />
   </g>
