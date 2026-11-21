@@ -42,19 +42,19 @@ def render_langs(data: dict) -> str:
 
         labels_svg.append(
             f'  <circle cx="{cx}" cy="{cy}" r="4" fill="{color}" />\n'
-            f'  <text x="{cx + 10}" y="{cy + 4}" font-family="monospace" font-size="11.5" fill="{PALETTE["neutral"]}">{label_text}</text>'
+            f'  <text x="{cx + 10}" y="{cy + 4}" font-family="monospace" font-size="11.5" fill="{PALETTE[\'neutral\']}">{label_text}</text>'
         )
 
+    neutral_color = PALETTE["neutral"]
+    bars_block = "\n".join(bars_svg)
+    labels_block = "\n".join(labels_svg)
+
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
-  <text x="14" y="20" font-family="sans-serif" font-size="11" font-weight="600" fill="{PALETTE['neutral']}" letter-spacing="1.2">LENGUAJES</text>
-  <line x1="14" y1="28" x2="406" y2="28" stroke="{PALETTE['neutral']}" stroke-opacity="0.2" stroke-width="1" />
+  <text x="14" y="20" font-family="sans-serif" font-size="11" font-weight="600" fill="{neutral_color}" letter-spacing="1.2">LENGUAJES</text>
+  <line x1="14" y1="28" x2="406" y2="28" stroke="{neutral_color}" stroke-opacity="0.2" stroke-width="1" />
 
-{chr(10).join(bars_svg)}
+{bars_block}
 
-{chr(10).join(labels_svg)}
-</svg>
-"""
-
-{chr(10).join(labels_svg)}
+{labels_block}
 </svg>
 """
