@@ -12,6 +12,7 @@ def render_langs(data: dict) -> str:
     usable_w = max(10.0, total_bar_w - gap * (len(langs) - 1))
 
     total_pct = sum(float(item.get("percent", 0)) for item in langs) or 100.0
+    neutral_color = PALETTE["neutral"]
 
     bars_svg = []
     labels_svg = []
@@ -42,19 +43,17 @@ def render_langs(data: dict) -> str:
 
         labels_svg.append(
             f'  <circle cx="{cx}" cy="{cy}" r="4" fill="{color}" />\n'
-            f'  <text x="{cx + 10}" y="{cy + 4}" font-family="monospace" font-size="11.5" fill="{PALETTE[\'neutral\']}">{label_text}</text>'
+            f'  <text x="{cx + 10}" y="{cy + 4}" font-family="monospace" font-size="11.5" fill="{neutral_color}">{label_text}</text>'
         )
 
-    neutral_color = PALETTE["neutral"]
     bars_block = "\n".join(bars_svg)
     labels_block = "\n".join(labels_svg)
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
-  <text x="14" y="20" font-family="sans-serif" font-size="11" font-weight="600" fill="{neutral_color}" letter-spacing="1.2">LENGUAJES</text>
-  <line x1="14" y1="28" x2="406" y2="28" stroke="{neutral_color}" stroke-opacity="0.2" stroke-width="1" />
-
-{bars_block}
-
-{labels_block}
-</svg>
-"""
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">\n'
+        f'  <text x="14" y="20" font-family="sans-serif" font-size="11" font-weight="600" fill="{neutral_color}" letter-spacing="1.2">LENGUAJES</text>\n'
+        f'  <line x1="14" y1="28" x2="406" y2="28" stroke="{neutral_color}" stroke-opacity="0.2" stroke-width="1" />\n\n'
+        f'{bars_block}\n\n'
+        f'{labels_block}\n'
+        f'</svg>\n'
+    )
