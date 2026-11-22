@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-20T05:09:05.187710+00:00",
+  "generated_at": "2026-11-22T06:46:27.742356+00:00",
   "username": "SaladDann",
   "summary": {
     "total_projects": 2,
     "original_projects": 2,
     "featured_projects": 2,
     "languages": [
-      "Dart",
+      "Kotlin",
       "Python"
     ]
   },
@@ -16,10 +16,10 @@
       "html_url": "https://github.com/SaladDann/offline_music",
       "homepage": "",
       "description": "Reproductor de música local offline para Android construido con Flutter y Kotlin nativo (AndroidX Media3 / ExoPlayer, MediaSession y persistencia SQLite).",
-      "language": "Dart",
+      "language": "Kotlin",
       "year": "2026",
       "created_at": "2026-11-20",
-      "updated_at": "2026-11-20",
+      "updated_at": "2026-11-22",
       "stars": 0,
       "forks": 0,
       "is_fork": false,
