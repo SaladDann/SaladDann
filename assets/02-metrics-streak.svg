@@ -30,7 +30,7 @@
 
   <text x="220" y="80" text-anchor="middle" fill="#B7E4C7" font-family="monospace" font-weight="700" font-size="26">0</text>
   <text x="220" y="138" text-anchor="middle" fill="#B7E4C7" font-family="sans-serif" font-weight="700" font-size="12">Current Streak</text>
-  <text x="220" y="166" text-anchor="middle" fill="#808080" fill-opacity="0.75" font-family="monospace" font-size="10.5">Nov 24</text>
+  <text x="220" y="166" text-anchor="middle" fill="#808080" fill-opacity="0.75" font-family="monospace" font-size="10.5">Nov 25</text>
 
   <!-- MEJOR RACHA -->
   <text x="367" y="80" text-anchor="middle" fill="#CDB4DB" font-family="monospace" font-weight="700" font-size="26">5</text>
