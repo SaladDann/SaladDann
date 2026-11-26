@@ -113,50 +113,94 @@
 
   <!-- ROW 4: ECOSYSTEM (70% / 30% — 1:1 SVG SCALE) -->
   <tr>
-    <td width="70%" align="center" valign="middle">
+  <td width="70%" align="center" valign="middle">
       <img src="./assets/03-stack-title.svg" width="100%" alt="Tech Stack &amp; Tools" />
+      <br /><br />
+      <!-- CAPA 1: LANGUAGES -->
       <p>
-        <!-- Languages -->
-        <img src="https://api.iconify.design/mdi/language-typescript.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="TypeScript" title="TypeScript" />
-        <img src="https://api.iconify.design/mdi/language-javascript.svg?color=%23C49A1A&width=22&height=22" width="22" height="22" alt="JavaScript" title="JavaScript" />
-        <img src="https://api.iconify.design/mdi/language-csharp.svg?color=%238B6BB7&width=22&height=22" width="22" height="22" alt="C#" title="C#" />
-        <img src="https://api.iconify.design/mdi/language-java.svg?color=%23D97B54&width=22&height=22" width="22" height="22" alt="Java" title="Java" />
-        <img src="https://api.iconify.design/mdi/language-python.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="Python" title="Python" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/code-tags.svg?color=%234A90D9&width=18&height=18" width="18" height="18" alt="Languages" title="Core Languages" align="middle" />
+        <img src="https://api.iconify.design/mdi/dots-vertical.svg?color=%23768390&width=14&height=14" width="14" height="14" alt="│" align="middle" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/language-typescript.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="TypeScript" title="TypeScript" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/language-javascript.svg?color=%23C49A1A&width=22&height=22" width="22" height="22" alt="JavaScript" title="JavaScript" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/language-csharp.svg?color=%238B6BB7&width=22&height=22" width="22" height="22" alt="C#" title="C#" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/language-java.svg?color=%23D97B54&width=22&height=22" width="22" height="22" alt="Java" title="Java" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/language-python.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="Python" title="Python" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/dart.svg?color=%232E86AB&width=22&height=22" width="22" height="22" alt="Dart" title="Dart" align="middle" />
       </p>
+      <!-- CAPA 2: FRAMEWORKS & RUNTIME -->
       <p>
-        <!-- Frameworks & Runtime -->
-        <img src="https://api.iconify.design/simple-icons/dart.svg?color=%232E86AB&width=22&height=22" width="22" height="22" alt="Dart" title="Dart" />
-        <img src="https://api.iconify.design/simple-icons/flutter.svg?color=%232E86AB&width=22&height=22" width="22" height="22" alt="Flutter" title="Flutter" />
-        <img src="https://api.iconify.design/mdi/react.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="React" title="React" />
-        <img src="https://api.iconify.design/simple-icons/vite.svg?color=%238B6BB7&width=22&height=22" width="22" height="22" alt="Vite" title="Vite" />
-        <img src="https://api.iconify.design/mdi/nodejs.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="Node.js" title="Node.js" />
-        <img src="https://api.iconify.design/mdi/dot-net.svg?color=%238B6BB7&width=22&height=22" width="22" height="22" alt=".NET" title=".NET" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/layers-outline.svg?color=%233DA372&width=18&height=18" width="18" height="18" alt="Frameworks &amp; Runtime" title="Frameworks &amp; Runtime" align="middle" />
+        <img src="https://api.iconify.design/mdi/dots-vertical.svg?color=%23768390&width=14&height=14" width="14" height="14" alt="│" align="middle" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/flutter.svg?color=%232E86AB&width=22&height=22" width="22" height="22" alt="Flutter" title="Flutter" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/react.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="React" title="React" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/vite.svg?color=%238B6BB7&width=22&height=22" width="22" height="22" alt="Vite" title="Vite" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/nodejs.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="Node.js" title="Node.js" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/dot-net.svg?color=%238B6BB7&width=22&height=22" width="22" height="22" alt=".NET" title=".NET" align="middle" />
       </p>
+      <!-- CAPA 3: DATA & INFRASTRUCTURE -->
       <p>
-        <!-- Databases & ORM -->
-        <img src="https://api.iconify.design/simple-icons/postgresql.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="PostgreSQL" title="PostgreSQL" />
-        <img src="https://api.iconify.design/simple-icons/mysql.svg?color=%232E86AB&width=22&height=22" width="22" height="22" alt="MySQL" title="MySQL" />
-        <img src="https://api.iconify.design/simple-icons/prisma.svg?color=%232E86AB&width=22&height=22" width="22" height="22" alt="Prisma" title="Prisma" />
-        <img src="https://api.iconify.design/simple-icons/mongodb.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="MongoDB" title="MongoDB" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/database-outline.svg?color=%232E86AB&width=18&height=18" width="18" height="18" alt="Data &amp; Infrastructure" title="Data &amp; Infrastructure" align="middle" />
+        <img src="https://api.iconify.design/mdi/dots-vertical.svg?color=%23768390&width=14&height=14" width="14" height="14" alt="│" align="middle" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/postgresql.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="PostgreSQL" title="PostgreSQL" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/mysql.svg?color=%232E86AB&width=22&height=22" width="22" height="22" alt="MySQL" title="MySQL" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/prisma.svg?color=%232E86AB&width=22&height=22" width="22" height="22" alt="Prisma" title="Prisma" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/mongodb.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="MongoDB" title="MongoDB" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/docker.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="Docker" title="Docker" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/google-cloud.svg?color=%23D95F69&width=22&height=22" width="22" height="22" alt="Google Cloud" title="Google Cloud" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/linux.svg?color=%23C49A1A&width=22&height=22" width="22" height="22" alt="Linux" title="Linux" align="middle" />
       </p>
+      <!-- CAPA 4: DEV TOOLS & IDEs -->
       <p>
-        <!-- Cloud & DevOps -->
-        <img src="https://api.iconify.design/mdi/docker.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="Docker" title="Docker" />
-        <img src="https://api.iconify.design/mdi/google-cloud.svg?color=%23D95F69&width=22&height=22" width="22" height="22" alt="Google Cloud" title="Google Cloud" />
-        <img src="https://api.iconify.design/mdi/linux.svg?color=%23C49A1A&width=22&height=22" width="22" height="22" alt="Linux" title="Linux" />
-        <img src="https://api.iconify.design/mdi/git.svg?color=%23D97B54&width=22&height=22" width="22" height="22" alt="Git" title="Git" />
-        <img src="https://api.iconify.design/simple-icons/postman.svg?color=%23D97B54&width=22&height=22" width="22" height="22" alt="Postman" title="Postman" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/console.svg?color=%238B6BB7&width=18&height=18" width="18" height="18" alt="Dev Tools &amp; IDEs" title="Dev Tools &amp; IDEs" align="middle" />
+        <img src="https://api.iconify.design/mdi/dots-vertical.svg?color=%23768390&width=14&height=14" width="14" height="14" alt="│" align="middle" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/git.svg?color=%23D97B54&width=22&height=22" width="22" height="22" alt="Git" title="Git" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/postman.svg?color=%23D97B54&width=22&height=22" width="22" height="22" alt="Postman" title="Postman" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/microsoft-visual-studio-code.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="VS Code" title="VS Code" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/microsoft-visual-studio.svg?color=%238B6BB7&width=22&height=22" width="22" height="22" alt="Visual Studio" title="Visual Studio" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/android-studio.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="Android Studio" title="Android Studio" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/pycharm.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="PyCharm" title="PyCharm" align="middle" />
       </p>
+      <!-- CAPA 5: AUDIO & CREATIVE -->
       <p>
-        <!-- IDEs & Audio/Design -->
-        <img src="https://api.iconify.design/mdi/microsoft-visual-studio-code.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="VS Code" title="VS Code" />
-        <img src="https://api.iconify.design/mdi/microsoft-visual-studio.svg?color=%238B6BB7&width=22&height=22" width="22" height="22" alt="Visual Studio" title="Visual Studio" />
-        <img src="https://api.iconify.design/mdi/android-studio.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="Android Studio" title="Android Studio" />
-        <img src="https://api.iconify.design/simple-icons/pycharm.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="PyCharm" title="PyCharm" />
-        <img src="https://api.iconify.design/simple-icons/adobephotoshop.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="Photoshop" title="Photoshop" />
-        <img src="https://api.iconify.design/simple-icons/adobeillustrator.svg?color=%23D97B54&width=22&height=22" width="22" height="22" alt="Illustrator" title="Illustrator" />
-        <img src="https://api.iconify.design/simple-icons/steinberg.svg?color=%23D95F69&width=22&height=22" width="22" height="22" alt="Steinberg" title="Steinberg / Cubase" />
-        <img src="./assets/03-stack-flstudio.svg" width="22" height="22" alt="FL Studio" title="FL Studio" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/mdi/waveform.svg?color=%23D97B54&width=18&height=18" width="18" height="18" alt="Audio &amp; Creative" title="Audio DSP &amp; Creative" align="middle" />
+        <img src="https://api.iconify.design/mdi/dots-vertical.svg?color=%23768390&width=14&height=14" width="14" height="14" alt="│" align="middle" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/steinberg.svg?color=%23D95F69&width=22&height=22" width="22" height="22" alt="Steinberg" title="Steinberg / Cubase" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="./assets/03-stack-flstudio.svg" width="22" height="22" alt="FL Studio" title="FL Studio" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/adobephotoshop.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="Photoshop" title="Photoshop" align="middle" />
+        &nbsp;&nbsp;&nbsp;
+        <img src="https://api.iconify.design/simple-icons/adobeillustrator.svg?color=%23D97B54&width=22&height=22" width="22" height="22" alt="Illustrator" title="Illustrator" align="middle" />
       </p>
     </td>
     <td width="30%" align="center" valign="middle">
