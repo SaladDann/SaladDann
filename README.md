@@ -33,7 +33,7 @@
     </td>
   </tr>
 
-  <!-- ROW 2: CORE FOCUS & VALUE PROPOSITION (70% / 30% ) -->
+  <!-- ROW 2: CORE FOCUS & VALUE PROPOSITION (70% / 30%) -->
   <tr>
     <!-- COLUMNA IZQUIERDA (70%): QUÉ CONSTRUYES Y DOMINIO TÉCNICO ACTUAL -->
     <td width="70%" align="left" valign="middle">
@@ -91,18 +91,18 @@
           <b>Mindset:</b> <em>Deterministic &amp; R&amp;D</em>
         </sub>
       </p>
-      <!-- 4. Estado laboral -->
+      <!-- 4. Estado laboral (1 sola línea para evitar salto huérfano) -->
       <p>
         <sub>
           <img src="https://api.iconify.design/mdi/circle-medium.svg?color=%23D97B54&width=16&height=16" width="16" height="16" alt="•" align="middle" />
-          <b>Status:</b> <em>Building Products, Open to Opportunities</em>
+          <b>Status:</b> <em>Open to Roles</em>
         </sub>
       </p>
     </td>
   </tr>
 
-  <!-- ROW 3: LIVE METRICS (68% / 32% — 1:1 SVG SCALE) -->
-<tr>
+  <!-- ROW 3: LIVE METRICS (70% / 30% — 1:1 SVG SCALE) -->
+  <tr>
     <td width="70%" align="center" valign="middle">
       <img src="./assets/02-metrics-streak.svg" width="100%" alt="Contribution Streak" />
     </td>
@@ -130,13 +130,13 @@
         <img src="https://api.iconify.design/mdi/react.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="React" title="React" />
         <img src="https://api.iconify.design/simple-icons/vite.svg?color=%238B6BB7&width=22&height=22" width="22" height="22" alt="Vite" title="Vite" />
         <img src="https://api.iconify.design/mdi/nodejs.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="Node.js" title="Node.js" />
-        <img src="https://api.iconify.design/mdi/dot-net.svg?color=%23768390&width=22&height=22" width="22" height="22" alt=".NET" title=".NET" />
+        <img src="https://api.iconify.design/mdi/dot-net.svg?color=%238B6BB7&width=22&height=22" width="22" height="22" alt=".NET" title=".NET" />
       </p>
       <p>
         <!-- Databases & ORM -->
         <img src="https://api.iconify.design/simple-icons/postgresql.svg?color=%234A90D9&width=22&height=22" width="22" height="22" alt="PostgreSQL" title="PostgreSQL" />
         <img src="https://api.iconify.design/simple-icons/mysql.svg?color=%232E86AB&width=22&height=22" width="22" height="22" alt="MySQL" title="MySQL" />
-        <img src="https://api.iconify.design/simple-icons/prisma.svg?color=%23768390&width=22&height=22" width="22" height="22" alt="Prisma" title="Prisma" />
+        <img src="https://api.iconify.design/simple-icons/prisma.svg?color=%232E86AB&width=22&height=22" width="22" height="22" alt="Prisma" title="Prisma" />
         <img src="https://api.iconify.design/simple-icons/mongodb.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="MongoDB" title="MongoDB" />
       </p>
       <p>
@@ -180,10 +180,8 @@
 <details>
   <summary><sub>♪</sub></summary>
   <p align="left">
-    <a href="https://open.spotify.com/intl-es/artist/67BdlNDvFCa6aRWlcrlWUy" title="Spotify Artist">
-      <img src="https://api.iconify.design/mdi/spotify.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="Spotify Artist" align="middle" />
-      &nbsp;
-      <img src="./assets/05-easter-waveform.svg" height="22" alt="Audio Waveform" align="middle" />
-    </a>
+    <a href="https://open.spotify.com/intl-es/artist/67BdlNDvFCa6aRWlcrlWUy" title="Spotify Artist"><img src="https://api.iconify.design/mdi/spotify.svg?color=%233DA372&width=22&height=22" width="22" height="22" alt="Spotify Artist" align="middle" /></a>
+    &nbsp;
+    <a href="https://open.spotify.com/intl-es/artist/67BdlNDvFCa6aRWlcrlWUy" title="Spotify Artist"><img src="./assets/05-easter-waveform.svg" height="22" alt="Audio Waveform" align="middle" /></a>
   </p>
 </details>
