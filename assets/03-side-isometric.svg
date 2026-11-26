@@ -81,10 +81,10 @@
     <polygon points="-18.0,63.0 -2.8000000000000007,55.4 12.399999999999999,63.0 -2.8000000000000007,70.6" fill="#768390" fill-opacity="0.16" />
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3.5; 0,0" dur="4.32s" begin="0.75s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="0.0,66.0 15.2,58.400000000000006 30.4,66.0 15.2,73.6" fill="#8B6BB7" />
-      <polygon points="0.0,66.0 15.2,73.6 15.2,79.6 0.0,72.0" fill="#745999" />
-      <polygon points="15.2,73.6 30.4,66.0 30.4,72.0 15.2,79.6" fill="#5e487c" />
-      <ellipse cx="15.2" cy="66.0" rx="3.6" ry="2.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
+      <polygon points="0.0,64.0 15.2,56.400000000000006 30.4,64.0 15.2,71.6" fill="#8B6BB7" />
+      <polygon points="0.0,64.0 15.2,71.6 15.2,79.6 0.0,72.0" fill="#745999" />
+      <polygon points="15.2,71.6 30.4,64.0 30.4,72.0 15.2,79.6" fill="#5e487c" />
+      <ellipse cx="15.2" cy="64.0" rx="3.6" ry="2.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
     </g>
   </g>
 </svg>
