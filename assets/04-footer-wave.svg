@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 52" width="860" height="52" preserveAspectRatio="none" role="img" aria-label="Olas líquidas pastel en ciclo solar-lunar">
+  <defs>
+    <!-- Filtro líquido suave para dar cohesión orgánica a la superficie -->
+    <filter id="liquidSurface" x="-5%" y="-35%" width="110%" height="170%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.8" result="blur" />
+      <feColorMatrix in="blur" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 18 -7" result="goo" />
+      <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+    </filter>
+
+    <!-- Degradado vertical de profundidad (cresta luminosa -> cuerpo translúcido) en orden circadiano / solar-lunar pastel (36 pasos) -->
+    <linearGradient id="chameleonWater" x1="0" y1="0" x2="0" y2="1">
+      <!-- Cresta superior: 1 paso adelante en el ciclo circadiano/lunar para reflejo tornasol -->
+      <stop offset="0%" stop-color="#96B8E8" stop-opacity="0.72">
+        <animate attributeName="stop-color" values="#96B8E8; #A2C7F0; #A8D8F8; #B5E6F5; #C4F0EC; #D2F5DC; #E1F8CE; #F2F9C2; #FFF5BA; #FFECAD; #FFE0A3; #FFD39E; #FFC6A1; #FFB8A8; #FFAEB5; #FFA8C5; #F7A8D4; #E8A8DE; #D8ADE6; #C7B2EE; #B7B8F5; #A8C2FA; #9ECEFC; #98DAF9; #9AE4EE; #A4ECDF; #B6F2D0; #CAF6C4; #E0F8BA; #F6F8B5; #FFEBB5; #FFD8AE; #FFC4AC; #FFB2B5; #CBB8EC; #96B8E8" dur="45s" repeatCount="indefinite" />
+      </stop>
+
+      <!-- Cuerpo del agua: tono dominante actual del ciclo solar/lunar -->
+      <stop offset="55%" stop-color="#8FA8DC" stop-opacity="0.42">
+        <animate attributeName="stop-color" values="#8FA8DC; #96B8E8; #A2C7F0; #A8D8F8; #B5E6F5; #C4F0EC; #D2F5DC; #E1F8CE; #F2F9C2; #FFF5BA; #FFECAD; #FFE0A3; #FFD39E; #FFC6A1; #FFB8A8; #FFAEB5; #FFA8C5; #F7A8D4; #E8A8DE; #D8ADE6; #C7B2EE; #B7B8F5; #A8C2FA; #9ECEFC; #98DAF9; #9AE4EE; #A4ECDF; #B6F2D0; #CAF6C4; #E0F8BA; #F6F8B5; #FFEBB5; #FFD8AE; #FFC4AC; #FFB2B5; #8FA8DC" dur="45s" repeatCount="indefinite" />
+      </stop>
+
+      <!-- Base del agua: mismo tono dominante suavizado -->
+      <stop offset="100%" stop-color="#8FA8DC" stop-opacity="0.18">
+        <animate attributeName="stop-color" values="#8FA8DC; #96B8E8; #A2C7F0; #A8D8F8; #B5E6F5; #C4F0EC; #D2F5DC; #E1F8CE; #F2F9C2; #FFF5BA; #FFECAD; #FFE0A3; #FFD39E; #FFC6A1; #FFB8A8; #FFAEB5; #FFA8C5; #F7A8D4; #E8A8DE; #D8ADE6; #C7B2EE; #B7B8F5; #A8C2FA; #9ECEFC; #98DAF9; #9AE4EE; #A4ECDF; #B6F2D0; #CAF6C4; #E0F8BA; #F6F8B5; #FFEBB5; #FFD8AE; #FFC4AC; #FFB2B5; #8FA8DC" dur="45s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Capa trasera de ola (mismo color, más transparente para dar volumen líquido) -->
+  <path d="M 0 26 Q 215 8, 430 26 T 860 22 L 860 52 L 0 52 Z" fill="url(#chameleonWater)" opacity="0.45">
+    <animate attributeName="d" values="
+        M 0 26 Q 215 8, 430 26 T 860 22 L 860 52 L 0 52 Z;
+        M 0 20 Q 215 38, 430 18 T 860 28 L 860 52 L 0 52 Z;
+        M 0 26 Q 215 8, 430 26 T 860 22 L 860 52 L 0 52 Z
+      " dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+  </path>
+
+  <!-- Capa principal de ola con superficie líquida -->
+  <g filter="url(#liquidSurface)">
+    <path d="M 0 28 Q 215 42, 430 24 T 860 26 L 860 52 L 0 52 Z" fill="url(#chameleonWater)">
+      <animate attributeName="d" values="
+          M 0 28 Q 215 42, 430 24 T 860 26 L 860 52 L 0 52 Z;
+          M 0 22 Q 215 10, 430 32 T 860 18 L 860 52 L 0 52 Z;
+          M 0 28 Q 215 42, 430 24 T 860 26 L 860 52 L 0 52 Z
+        " dur="7.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+    </path>
+  </g>
+</svg>

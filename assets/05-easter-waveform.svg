@@ -1,0 +1,101 @@
+<svg width="160" height="24" viewBox="0 0 320 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ecualizador líquido pastel con mensaje cromático: el ser como arte y arte como vida">
+  <defs>
+    <!-- Filtro líquido calibrado para mantener definición a 24px de alto -->
+    <filter id="liquidWave" x="-15%" y="-35%" width="130%" height="170%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.1" result="blur" />
+      <feColorMatrix in="blur" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 18 -6" result="goo" />
+      <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+    </filter>
+
+    <linearGradient id="iridescentEq" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="320" y2="0">
+      <stop offset="0%" stop-color="#A2D2FF">
+        <animate attributeName="stop-color" values="#A2D2FF; #8ECAE6; #B7E4C7; #FFF3B0; #FBC4AB; #FFAFCC; #CDB4DB; #A2D2FF" dur="18s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="35%" stop-color="#B7E4C7">
+        <animate attributeName="stop-color" values="#B7E4C7; #FFF3B0; #FBC4AB; #FFAFCC; #CDB4DB; #A2D2FF; #8ECAE6; #B7E4C7" dur="18s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="70%" stop-color="#CDB4DB">
+        <animate attributeName="stop-color" values="#CDB4DB; #A2D2FF; #8ECAE6; #B7E4C7; #FFF3B0; #FBC4AB; #FFAFCC; #CDB4DB" dur="18s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#FFF3B0">
+        <animate attributeName="stop-color" values="#FFF3B0; #FBC4AB; #FFAFCC; #CDB4DB; #A2D2FF; #8ECAE6; #B7E4C7; #FFF3B0" dur="18s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!--
+    Mensaje oculto en código de color pastel (27 nodos = 27 caracteres):
+    "el ser como arte y arte como vida"
+    e=#A2D2FF, l=#90E0EF,  =#E2ECE9, s=#B7E4C7, e=#A2D2FF, r=#FFB5A7,  =#E2ECE9,
+    c=#CDB4DB, o=#FFC8DD, m=#FFF3B0, o=#FFC8DD,  =#E2ECE9,
+    a=#FBC4AB, r=#FFB5A7, t=#8ECAE6, e=#A2D2FF,  =#E2ECE9,
+    y=#E0AAFF,  =#E2ECE9,
+    a=#FBC4AB, r=#FFB5A7, t=#8ECAE6, e=#A2D2FF,  =#E2ECE9,
+    c=#CDB4DB, o=#FFC8DD, m=#FFF3B0, o=#FFC8DD,  =#E2ECE9,
+    v=#BDB2FF, i=#9BF6FF, d=#CAFFBF, a=#FBC4AB
+  -->
+  <g filter="url(#liquidWave)">
+    <g fill="url(#iridescentEq)" transform="translate(-238, 0)">
+      <rect x="240" y="18" width="4" height="12" rx="2"><animate attributeName="height" values="12;32;12" dur="1.2s" repeatCount="indefinite" /><animate attributeName="y" values="18;8;18" dur="1.2s" repeatCount="indefinite" /></rect>
+      <rect x="252" y="12" width="4" height="24" rx="2"><animate attributeName="height" values="24;10;24" dur="0.9s" repeatCount="indefinite" /><animate attributeName="y" values="12;19;12" dur="0.9s" repeatCount="indefinite" /></rect>
+      <rect x="264" y="8" width="4" height="32" rx="2"><animate attributeName="height" values="32;14;32" dur="1.4s" repeatCount="indefinite" /><animate attributeName="y" values="8;17;8" dur="1.4s" repeatCount="indefinite" /></rect>
+      <rect x="276" y="16" width="4" height="16" rx="2"><animate attributeName="height" values="16;36;16" dur="1.1s" repeatCount="indefinite" /><animate attributeName="y" values="16;6;16" dur="1.1s" repeatCount="indefinite" /></rect>
+      <rect x="288" y="10" width="4" height="28" rx="2"><animate attributeName="height" values="28;8;28" dur="1.3s" repeatCount="indefinite" /><animate attributeName="y" values="10;20;10" dur="1.3s" repeatCount="indefinite" /></rect>
+      <rect x="300" y="14" width="4" height="20" rx="2"><animate attributeName="height" values="20;34;20" dur="1.0s" repeatCount="indefinite" /><animate attributeName="y" values="14;7;14" dur="1.0s" repeatCount="indefinite" /></rect>
+      <rect x="312" y="6" width="4" height="36" rx="2"><animate attributeName="height" values="36;12;36" dur="1.5s" repeatCount="indefinite" /><animate attributeName="y" values="6;18;6" dur="1.5s" repeatCount="indefinite" /></rect>
+      <rect x="324" y="18" width="4" height="12" rx="2"><animate attributeName="height" values="12;28;12" dur="0.8s" repeatCount="indefinite" /><animate attributeName="y" values="18;10;18" dur="0.8s" repeatCount="indefinite" /></rect>
+      <rect x="336" y="12" width="4" height="24" rx="2"><animate attributeName="height" values="24;38;24" dur="1.25s" repeatCount="indefinite" /><animate attributeName="y" values="12;5;12" dur="1.25s" repeatCount="indefinite" /></rect>
+      <rect x="348" y="8" width="4" height="32" rx="2"><animate attributeName="height" values="32;10;32" dur="1.15s" repeatCount="indefinite" /><animate attributeName="y" values="8;19;8" dur="1.15s" repeatCount="indefinite" /></rect>
+      <rect x="360" y="15" width="4" height="18" rx="2"><animate attributeName="height" values="18;34;18" dur="0.95s" repeatCount="indefinite" /><animate attributeName="y" values="15;7;15" dur="0.95s" repeatCount="indefinite" /></rect>
+      <rect x="372" y="10" width="4" height="28" rx="2"><animate attributeName="height" values="28;14;28" dur="1.35s" repeatCount="indefinite" /><animate attributeName="y" values="10;17;10" dur="1.35s" repeatCount="indefinite" /></rect>
+      <rect x="384" y="4" width="4" height="40" rx="2"><animate attributeName="height" values="40;16;40" dur="1.1s" repeatCount="indefinite" /><animate attributeName="y" values="4;16;4" dur="1.1s" repeatCount="indefinite" /></rect>
+      <rect x="396" y="12" width="4" height="24" rx="2"><animate attributeName="height" values="24;38;24" dur="1.3s" repeatCount="indefinite" /><animate attributeName="y" values="12;5;12" dur="1.3s" repeatCount="indefinite" /></rect>
+      <rect x="408" y="8" width="4" height="32" rx="2"><animate attributeName="height" values="32;12;32" dur="0.9s" repeatCount="indefinite" /><animate attributeName="y" values="8;18;8" dur="0.9s" repeatCount="indefinite" /></rect>
+      <rect x="420" y="16" width="4" height="16" rx="2"><animate attributeName="height" values="16;32;16" dur="1.2s" repeatCount="indefinite" /><animate attributeName="y" values="16;8;16" dur="1.2s" repeatCount="indefinite" /></rect>
+      <rect x="432" y="10" width="4" height="28" rx="2"><animate attributeName="height" values="28;10;28" dur="1.4s" repeatCount="indefinite" /><animate attributeName="y" values="10;19;10" dur="1.4s" repeatCount="indefinite" /></rect>
+      <rect x="444" y="14" width="4" height="20" rx="2"><animate attributeName="height" values="20;36;20" dur="1.05s" repeatCount="indefinite" /><animate attributeName="y" values="14;6;14" dur="1.05s" repeatCount="indefinite" /></rect>
+      <rect x="456" y="6" width="4" height="36" rx="2"><animate attributeName="height" values="36;14;36" dur="1.25s" repeatCount="indefinite" /><animate attributeName="y" values="6;17;6" dur="1.25s" repeatCount="indefinite" /></rect>
+      <rect x="468" y="18" width="4" height="12" rx="2"><animate attributeName="height" values="12;30;12" dur="0.85s" repeatCount="indefinite" /><animate attributeName="y" values="18;9;18" dur="0.85s" repeatCount="indefinite" /></rect>
+      <rect x="480" y="12" width="4" height="24" rx="2"><animate attributeName="height" values="24;12;24" dur="1.15s" repeatCount="indefinite" /><animate attributeName="y" values="12;18;12" dur="1.15s" repeatCount="indefinite" /></rect>
+      <rect x="492" y="16" width="4" height="16" rx="2"><animate attributeName="height" values="16;34;16" dur="1.3s" repeatCount="indefinite" /><animate attributeName="y" values="16;7;16" dur="1.3s" repeatCount="indefinite" /></rect>
+      <rect x="504" y="10" width="4" height="28" rx="2"><animate attributeName="height" values="28;10;28" dur="1.0s" repeatCount="indefinite" /><animate attributeName="y" values="10;19;10" dur="1.0s" repeatCount="indefinite" /></rect>
+      <rect x="516" y="14" width="4" height="20" rx="2"><animate attributeName="height" values="20;30;20" dur="1.2s" repeatCount="indefinite" /><animate attributeName="y" values="14;9;14" dur="1.2s" repeatCount="indefinite" /></rect>
+      <rect x="528" y="8" width="4" height="32" rx="2"><animate attributeName="height" values="32;12;32" dur="1.45s" repeatCount="indefinite" /><animate attributeName="y" values="8;18;8" dur="1.45s" repeatCount="indefinite" /></rect>
+      <rect x="540" y="16" width="4" height="16" rx="2"><animate attributeName="height" values="16;28;16" dur="0.95s" repeatCount="indefinite" /><animate attributeName="y" values="16;10;16" dur="0.95s" repeatCount="indefinite" /></rect>
+      <rect x="552" y="18" width="4" height="12" rx="2"><animate attributeName="height" values="12;24;12" dur="1.1s" repeatCount="indefinite" /><animate attributeName="y" values="18;12;18" dur="1.1s" repeatCount="indefinite" /></rect>
+    </g>
+
+    <!-- Gotas / pulsos cromáticos codificados ("el ser como arte y arte como vida") -->
+    <circle cx="14" cy="24" r="2.2" fill="#A2D2FF" opacity="0.85"><animate attributeName="cy" values="24;14;34;24" dur="2.4s" repeatCount="indefinite" /></circle>
+    <circle cx="26" cy="24" r="2.2" fill="#90E0EF" opacity="0.85"><animate attributeName="cy" values="24;32;15;24" dur="2.1s" repeatCount="indefinite" /></circle>
+    <circle cx="38" cy="24" r="1.8" fill="#E2ECE9" opacity="0.7"><animate attributeName="cy" values="24;20;28;24" dur="2.8s" repeatCount="indefinite" /></circle>
+    <circle cx="50" cy="24" r="2.2" fill="#B7E4C7" opacity="0.85"><animate attributeName="cy" values="24;12;33;24" dur="2.2s" repeatCount="indefinite" /></circle>
+    <circle cx="62" cy="24" r="2.2" fill="#A2D2FF" opacity="0.85"><animate attributeName="cy" values="24;34;14;24" dur="2.5s" repeatCount="indefinite" /></circle>
+    <circle cx="74" cy="24" r="2.2" fill="#FFB5A7" opacity="0.85"><animate attributeName="cy" values="24;15;32;24" dur="1.9s" repeatCount="indefinite" /></circle>
+    <circle cx="86" cy="24" r="1.8" fill="#E2ECE9" opacity="0.7"><animate attributeName="cy" values="24;28;20;24" dur="2.7s" repeatCount="indefinite" /></circle>
+    <circle cx="98" cy="24" r="2.2" fill="#CDB4DB" opacity="0.85"><animate attributeName="cy" values="24;13;34;24" dur="2.3s" repeatCount="indefinite" /></circle>
+    <circle cx="110" cy="24" r="2.2" fill="#FFC8DD" opacity="0.85"><animate attributeName="cy" values="24;33;15;24" dur="2.0s" repeatCount="indefinite" /></circle>
+    <circle cx="122" cy="24" r="2.2" fill="#FFF3B0" opacity="0.85"><animate attributeName="cy" values="24;14;32;24" dur="2.6s" repeatCount="indefinite" /></circle>
+    <circle cx="134" cy="24" r="2.2" fill="#FFC8DD" opacity="0.85"><animate attributeName="cy" values="24;32;14;24" dur="2.15s" repeatCount="indefinite" /></circle>
+    <circle cx="146" cy="24" r="1.8" fill="#E2ECE9" opacity="0.7"><animate attributeName="cy" values="24;20;28;24" dur="2.9s" repeatCount="indefinite" /></circle>
+    <circle cx="158" cy="24" r="2.2" fill="#FBC4AB" opacity="0.85"><animate attributeName="cy" values="24;12;34;24" dur="2.25s" repeatCount="indefinite" /></circle>
+    <circle cx="170" cy="24" r="2.2" fill="#FFB5A7" opacity="0.85"><animate attributeName="cy" values="24;34;15;24" dur="1.95s" repeatCount="indefinite" /></circle>
+    <circle cx="182" cy="24" r="2.2" fill="#8ECAE6" opacity="0.85"><animate attributeName="cy" values="24;15;33;24" dur="2.45s" repeatCount="indefinite" /></circle>
+    <circle cx="194" cy="24" r="2.2" fill="#A2D2FF" opacity="0.85"><animate attributeName="cy" values="24;33;13;24" dur="2.05s" repeatCount="indefinite" /></circle>
+    <circle cx="206" cy="24" r="1.8" fill="#E2ECE9" opacity="0.7"><animate attributeName="cy" values="24;28;20;24" dur="2.75s" repeatCount="indefinite" /></circle>
+    <circle cx="218" cy="24" r="2.2" fill="#E0AAFF" opacity="0.85"><animate attributeName="cy" values="24;13;33;24" dur="2.35s" repeatCount="indefinite" /></circle>
+    <circle cx="230" cy="24" r="1.8" fill="#E2ECE9" opacity="0.7"><animate attributeName="cy" values="24;20;28;24" dur="2.85s" repeatCount="indefinite" /></circle>
+    <circle cx="242" cy="24" r="2.2" fill="#FBC4AB" opacity="0.85"><animate attributeName="cy" values="24;14;34;24" dur="2.1s" repeatCount="indefinite" /></circle>
+    <circle cx="254" cy="24" r="2.2" fill="#FFB5A7" opacity="0.85"><animate attributeName="cy" values="24;32;14;24" dur="2.5s" repeatCount="indefinite" /></circle>
+    <circle cx="266" cy="24" r="2.2" fill="#8ECAE6" opacity="0.85"><animate attributeName="cy" values="24;13;33;24" dur="2.2s" repeatCount="indefinite" /></circle>
+    <circle cx="278" cy="24" r="2.2" fill="#A2D2FF" opacity="0.85"><animate attributeName="cy" values="24;34;15;24" dur="1.9s" repeatCount="indefinite" /></circle>
+    <circle cx="290" cy="24" r="1.8" fill="#E2ECE9" opacity="0.7"><animate attributeName="cy" values="24;28;20;24" dur="2.65s" repeatCount="indefinite" /></circle>
+    <circle cx="302" cy="24" r="2.2" fill="#BDB2FF" opacity="0.85"><animate attributeName="cy" values="24;14;34;24" dur="2.3s" repeatCount="indefinite" /></circle>
+    <circle cx="310" cy="24" r="2.2" fill="#9BF6FF" opacity="0.85"><animate attributeName="cy" values="24;33;14;24" dur="2.0s" repeatCount="indefinite" /></circle>
+    <circle cx="316" cy="24" r="2.2" fill="#CAFFBF" opacity="0.85"><animate attributeName="cy" values="24;13;32;24" dur="2.4s" repeatCount="indefinite" /></circle>
+  </g>
+</svg>

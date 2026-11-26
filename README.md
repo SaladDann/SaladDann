@@ -148,9 +148,8 @@
   <!-- ROW 5: FOOTER (CONTRIBUTION GRAPH & WAVE) -->
   <tr>
     <td colspan="2" width="860" align="center" valign="middle">
-      <img src="./assets/04-footer-contrib.svg" width="840" alt="Annual Contributions" />
-      <br /><br />
-      <img src="./assets/04-footer-wave.svg" width="860" alt="Footer Wave" />
+      <img src="./assets/04-footer-contrib.svg" alt="Annual Contributions" />
+      <img src="./assets/04-footer-wave.svg" alt="Footer Wave" />
     </td>
   </tr>
 </table>

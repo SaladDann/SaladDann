@@ -1,0 +1,134 @@
+name: Update Profile Telemetry
+
+on:
+  schedule:
+    # Todos los días a las 00:17 UTC
+    - cron: "17 0 * * *"
+
+  workflow_dispatch:
+    inputs:
+      cartridge:
+        description: "Cartucho específico. Vacío = selección automática"
+        required: false
+        type: string
+        default: ""
+
+  push:
+    paths:
+      - "scripts/**"
+      - "data/projects.json"
+      - "docs/**"
+      - ".github/workflows/update-telemetry.yml"
+
+permissions:
+  contents: write
+
+# Evita dos ejecuciones simultáneas sobre el mismo repositorio.
+concurrency:
+  group: profile-telemetry-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-svgs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch real GitHub metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.repository_owner }}
+        run: python scripts/fetch_metrics.py
+
+      - name: Fetch projects catalog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.repository_owner }}
+        run: python scripts/fetch_projects.py
+
+      - name: Render modular SVGs
+        env:
+          CONTRIB_CARTRIDGE: ${{ inputs.cartridge || '' }}
+        run: python scripts/render_svgs.py
+
+      - name: Commit and push generated assets
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -- data/metrics.json data/projects.json assets/ docs/
+
+          # Si el único cambio en data/metrics.json es "generated_at", lo descartamos
+          # para no generar commits vacíos de contenido cuando no hubo cambios reales.
+          if git diff --cached --quiet -- ':!data/metrics.json'; then
+            if git diff --cached -- data/metrics.json | grep -E '^[+-]\s*"generated_at"' >/dev/null && \
+               ! git diff --cached -- data/metrics.json | grep -E '^[+-]' | grep -vE '^(---|\+\+\+|[+-]\s*"generated_at")' >/dev/null; then
+              git checkout HEAD -- data/metrics.json
+            fi
+          fi
+
+          if git diff --cached --quiet; then
+            echo "[INFO] No hay cambios reales que publicar."
+            exit 0
+          fi
+
+          git commit -m "chore(telemetry): update profile SVGs and projects catalog"
+
+          max_attempts=3
+          attempt=1
+          while [ "$attempt" -le "$max_attempts" ]; do
+            echo "[INFO] Sincronizando con origin/main (intento $attempt/$max_attempts)..."
+            if ! git pull --rebase --autostash origin main; then
+              # Resolver conflictos automáticamente en archivos generados priorizando la versión del run
+              conflicted_files=$(git diff --name-only --diff-filter=U || true)
+              if [ -n "$conflicted_files" ]; then
+                for file in $conflicted_files; do
+                  case "$file" in
+                    assets/*|data/*|docs/*)
+                      git checkout --theirs -- "$file"
+                      git add -- "$file"
+                      ;;
+                    *)
+                      echo "[ERROR] Conflicto no automático en: $file"
+                      git rebase --abort || true
+                      exit 1
+                      ;;
+                  esac
+                done
+              fi
+
+              # Si tras resolver no quedan cambios en el commit rebasing, omitirlo; si no, continuar
+              if git diff --cached --quiet && ! git diff --quiet; then
+                git add -A
+              fi
+              if git diff --cached --quiet; then
+                git rebase --skip || true
+              else
+                git rebase --continue --no-edit || git rebase --continue
+              fi
+            fi
+
+            if git push origin main; then
+              echo "[OK] Cambios publicados correctamente en main."
+              exit 0
+            fi
+
+            echo "[WARN] Falló git push en intento $attempt; reintentando..."
+            attempt=$((attempt + 1))
+            sleep 2
+          done
+
+          echo "[ERROR] No se pudo publicar tras $max_attempts intentos."
+          exit 1

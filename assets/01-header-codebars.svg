@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 230" width="460" height="230" role="img" aria-label="Transición animada de ventana de código a ventana UML de arquitectura de sistema conectada por líneas punteadas">
+  <defs>
+    <!-- Glow suave para dar profundidad sin fondo -->
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="dotGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b" />
+      <feMerge>
+        <feMergeNode in="b" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Clips para revelar progresivamente cada línea punteada estilizada -->
+    <clipPath id="clipLine1">
+      <rect x="24" y="76" width="412" height="28">
+        <animate attributeName="width" values="0;0;412;412;0" keyTimes="0;0.52;0.58;0.95;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="clipLine2">
+      <rect x="195" y="106" width="70" height="32">
+        <animate attributeName="width" values="0;0;70;70;0" keyTimes="0;0.64;0.70;0.95;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="clipLine3">
+      <rect x="24" y="146" width="412" height="28">
+        <animate attributeName="width" values="0;0;412;412;0" keyTimes="0;0.76;0.82;0.95;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- ================= ETAPA 1: VENTANA DE CÓDIGO (sin fondo de stage) ================= -->
+  <g id="code-stage">
+    <!-- Marco de ventana: ancho completo alineado al segundo SVG -->
+    <rect x="10" y="16" width="440" height="198" rx="12" fill="#1e2433" fill-opacity="0.55" stroke="#475569" stroke-width="1">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.35;0.40;0.95;1" dur="12s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Barra superior: semáforo + título -->
+    <g>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.35;0.40;0.95;1" dur="12s" repeatCount="indefinite" />
+      <circle cx="28" cy="32" r="4.5" fill="#fca5a5" opacity="0.9" />
+      <circle cx="42" cy="32" r="4.5" fill="#fde68a" opacity="0.9" />
+      <circle cx="56" cy="32" r="4.5" fill="#86efac" opacity="0.9" />
+      <rect x="74" y="28" width="128" height="8" rx="4" fill="#475569" />
+    </g>
+
+    <!-- Líneas de código (mismo timing y convergencia central) -->
+    <g>
+      <rect x="28" y="54" width="0" height="9" rx="3" fill="#93c5fd">
+        <animate attributeName="width" values="0;0;78;78;0;0" keyTimes="0;0.01;0.045;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="x" values="28;28;28;28;230;230" keyTimes="0;0.01;0.045;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="y" values="54;54;54;54;115;115" keyTimes="0;0.01;0.045;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.01;0.045;0.35;0.38;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+      <rect x="114" y="54" width="0" height="9" rx="3" fill="#cbd5e1">
+        <animate attributeName="width" values="0;0;134;134;0;0" keyTimes="0;0.045;0.085;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="x" values="114;114;114;114;230;230" keyTimes="0;0.045;0.085;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="y" values="54;54;54;54;115;115" keyTimes="0;0.045;0.085;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.045;0.085;0.35;0.38;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+      <rect x="28" y="72" width="0" height="9" rx="3" fill="#c4b5fd">
+        <animate attributeName="width" values="0;0;96;96;0;0" keyTimes="0;0.085;0.12;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="x" values="28;28;28;28;230;230" keyTimes="0;0.085;0.12;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="y" values="72;72;72;72;115;115" keyTimes="0;0.085;0.12;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.085;0.12;0.35;0.38;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+      <rect x="132" y="72" width="0" height="9" rx="3" fill="#f1f5f9">
+        <animate attributeName="width" values="0;0;116;116;0;0" keyTimes="0;0.12;0.155;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="x" values="132;132;132;132;230;230" keyTimes="0;0.12;0.155;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="y" values="72;72;72;72;115;115" keyTimes="0;0.12;0.155;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.12;0.155;0.35;0.38;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+      <rect x="52" y="90" width="0" height="9" rx="3" fill="#6ee7b7">
+        <animate attributeName="width" values="0;0;66;66;0;0" keyTimes="0;0.155;0.185;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="x" values="52;52;52;52;230;230" keyTimes="0;0.155;0.185;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="y" values="90;90;90;90;115;115" keyTimes="0;0.155;0.185;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.155;0.185;0.35;0.38;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+      <rect x="126" y="90" width="0" height="9" rx="3" fill="#fde68a">
+        <animate attributeName="width" values="0;0;154;154;0;0" keyTimes="0;0.185;0.22;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="x" values="126;126;126;126;230;230" keyTimes="0;0.185;0.22;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="y" values="90;90;90;90;115;115" keyTimes="0;0.185;0.22;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.185;0.22;0.35;0.38;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+      <rect x="52" y="108" width="0" height="9" rx="3" fill="#93c5fd">
+        <animate attributeName="width" values="0;0;104;104;0;0" keyTimes="0;0.22;0.255;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="x" values="52;52;52;52;230;230" keyTimes="0;0.22;0.255;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="y" values="108;108;108;108;115;115" keyTimes="0;0.22;0.255;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.22;0.255;0.35;0.38;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+      <rect x="28" y="128" width="0" height="9" rx="3" fill="#6ee7b7">
+        <animate attributeName="width" values="0;0;85;85;0;0" keyTimes="0;0.255;0.295;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="x" values="28;28;28;28;230;230" keyTimes="0;0.255;0.295;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="y" values="128;128;128;128;115;115" keyTimes="0;0.255;0.295;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.255;0.295;0.35;0.38;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+      <rect x="122" y="128" width="0" height="9" rx="3" fill="#fde68a">
+        <animate attributeName="width" values="0;0;165;165;0;0" keyTimes="0;0.295;0.34;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="x" values="122;122;122;122;230;230" keyTimes="0;0.295;0.34;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="y" values="128;128;128;128;115;115" keyTimes="0;0.295;0.34;0.34;0.38;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.295;0.34;0.35;0.38;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+
+  <!-- ================= TRANSICIÓN: punto que se forma y viaja al bloque 1 ================= -->
+  <circle cx="230" cy="115" r="0" fill="#93c5fd" filter="url(#dotGlow)">
+    <animate attributeName="r" values="0;0;6;5;0;0" keyTimes="0;0.36;0.39;0.42;0.44;1" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36;0.39;0.42;0.44;1" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="115;115;115;62;62;62" keyTimes="0;0.36;0.39;0.42;0.44;1" dur="12s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- ================= ETAPA 2: VENTANA UML DE SISTEMA ================= -->
+  <g id="modules-view">
+    <!-- Marco de marco UML de sistema (con solapa/etiqueta minimalista en esquina superior izquierda) -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.45;0.95;1" dur="12s" repeatCount="indefinite" />
+      <rect x="10" y="16" width="440" height="198" rx="12" fill="#1e2433" fill-opacity="0.55" stroke="#475569" stroke-width="1" />
+      <!-- Solapa UML minimalista: sys -->
+      <path d="M 10 28 Q 10 16 22 16 L 106 16 L 116 26 L 116 34 L 10 34 Z" fill="#182234" fill-opacity="0.7" stroke="#475569" stroke-width="1" />
+      <rect x="22" y="22" width="12" height="6" rx="2" fill="#93c5fd" opacity="0.85" />
+      <rect x="40" y="22" width="62" height="6" rx="3" fill="#94a3b8" />
+    </g>
+
+    <!-- BLOQUE 1 (superior ancho, más compacto y con margen lateral) -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.52;0.95;1" dur="12s" repeatCount="indefinite" />
+      <rect x="28" y="44" width="404" height="32" rx="9" fill="#182234" fill-opacity="0.7" stroke="#7dd3fc" stroke-width="1.5" />
+      <rect x="28" y="44" width="404" height="32" rx="9" fill="none" stroke="#7dd3fc" stroke-width="2" filter="url(#softGlow)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;0.3;0" keyTimes="0;0.42;0.45;0.52;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+      <rect x="42" y="56" width="120" height="8" rx="4" fill="#233852" />
+    </g>
+
+    <!-- LÍNEA PUNTEADA 1 estilizada (curva sinuosa: bloque 1 -> bloque 2 izquierdo) -->
+    <path id="curve1" d="M 230 76 C 230 88, 152 82, 122 98" fill="none" stroke="#c4b5fd" stroke-width="2" stroke-dasharray="3 3" stroke-linecap="round" clip-path="url(#clipLine1)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.52;0.53;0.95;1" dur="12s" repeatCount="indefinite" />
+    </path>
+
+    <circle r="3.5" fill="#ddd6fe" filter="url(#dotGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.52;0.53;0.58;0.59;1" dur="12s" repeatCount="indefinite" />
+      <animateMotion path="M 230 76 C 230 88, 152 82, 122 98" begin="6.24s" dur="0.72s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- BLOQUE 2 (izquierdo, más compacto y con separación central) -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.58;0.64;0.95;1" dur="12s" repeatCount="indefinite" />
+      <rect x="28" y="98" width="180" height="42" rx="9" fill="#182234" fill-opacity="0.7" stroke="#a78bfa" stroke-width="1.5" />
+      <rect x="28" y="98" width="180" height="42" rx="9" fill="none" stroke="#a78bfa" stroke-width="2" filter="url(#softGlow)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;0.3;0" keyTimes="0;0.58;0.60;0.66;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- LÍNEA PUNTEADA 2 estilizada (onda suave entre bloque 2 y bloque 3) -->
+    <path id="curve2" d="M 208 119 C 221 108, 239 130, 252 119" fill="none" stroke="#6ee7b7" stroke-width="2" stroke-dasharray="3 3" stroke-linecap="round" clip-path="url(#clipLine2)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.64;0.65;0.95;1" dur="12s" repeatCount="indefinite" />
+    </path>
+
+    <circle r="3.5" fill="#a7f3d0" filter="url(#dotGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.64;0.65;0.70;0.71;1" dur="12s" repeatCount="indefinite" />
+      <animateMotion path="M 208 119 C 221 108, 239 130, 252 119" begin="7.68s" dur="0.72s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- BLOQUE 3 (derecho, más compacto y con separación central) -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.70;0.76;0.95;1" dur="12s" repeatCount="indefinite" />
+      <rect x="252" y="98" width="180" height="42" rx="9" fill="#182234" fill-opacity="0.7" stroke="#6ee7b7" stroke-width="1.5" />
+      <rect x="252" y="98" width="180" height="42" rx="9" fill="none" stroke="#6ee7b7" stroke-width="2" filter="url(#softGlow)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;0.3;0" keyTimes="0;0.70;0.72;0.78;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- LÍNEA PUNTEADA 3 estilizada (curva sinuosa: bloque 3 -> bloque 4 inferior) -->
+    <path id="curve3" d="M 344 140 C 344 154, 260 146, 230 162" fill="none" stroke="#6ee7b7" stroke-width="2" stroke-dasharray="3 3" stroke-linecap="round" clip-path="url(#clipLine3)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.76;0.77;0.95;1" dur="12s" repeatCount="indefinite" />
+    </path>
+
+    <circle r="3.5" fill="#a7f3d0" filter="url(#dotGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.76;0.77;0.82;0.83;1" dur="12s" repeatCount="indefinite" />
+      <animateMotion path="M 344 140 C 344 154, 260 146, 230 162" begin="9.12s" dur="0.72s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- BLOQUE 4 (inferior ancho, más compacto y con margen inferior) -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.82;0.89;0.95;1" dur="12s" repeatCount="indefinite" />
+      <rect x="28" y="162" width="404" height="34" rx="9" fill="#182234" fill-opacity="0.7" stroke="#6ee7b7" stroke-width="1.5" />
+      <rect x="28" y="162" width="404" height="34" rx="9" fill="none" stroke="#6ee7b7" stroke-width="2" filter="url(#softGlow)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;0.3;0" keyTimes="0;0.82;0.84;0.90;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+      <circle cx="46" cy="179" r="6" fill="#254743" />
+      <rect x="62" y="175" width="184" height="8" rx="4" fill="#2c4a46" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#FBC4AB" stroke-width="1.8">
+  <!-- Tallo superior -->
+  <path d="M14.8 6.4C15.9 4.3 17.5 2.8 19.4 1.8" />
+  <!-- Cuerpo principal de la fruta -->
+  <path d="M6.4 8.3C4.3 12.2 3.9 18.2 6.6 20.8C9.3 23.3 15.6 19.6 18.6 12.9" />
+  <!-- Hoja izquierda -->
+  <path d="M13.5 6.2C11.9 3.6 8.6 3.2 6.1 5.1C4.1 6.7 3.8 8.3 5.1 8.5C6.4 8.7 8.8 7.9 10.4 7.4" />
+  <!-- Hoja derecha -->
+  <path d="M16.1 6.9C18.8 6.4 20.9 8.1 21.1 10.7C21.3 12.7 20.1 13.8 18.9 13.1C17.8 12.4 16.9 10.9 16.4 9.8" />
+  <!-- Hoja central superpuesta -->
+  <path d="M12.5 5.8C10.5 5.7 9.8 7.6 10.4 9.8C11.1 12.1 13.3 12.7 15.1 11.4C16.9 10.1 17.2 7.8 15.4 6.6C14.3 5.9 13.3 5.8 12.5 5.8Z" />
+</svg>

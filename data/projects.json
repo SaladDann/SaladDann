@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-11-22T06:46:27.742356+00:00",
+  "username": "SaladDann",
+  "summary": {
+    "total_projects": 2,
+    "original_projects": 2,
+    "featured_projects": 2,
+    "languages": [
+      "Kotlin",
+      "Python"
+    ]
+  },
+  "projects": [
+    {
+      "name": "offline_music",
+      "html_url": "https://github.com/SaladDann/offline_music",
+      "homepage": "",
+      "description": "Reproductor de música local offline para Android construido con Flutter y Kotlin nativo (AndroidX Media3 / ExoPlayer, MediaSession y persistencia SQLite).",
+      "language": "Kotlin",
+      "year": "2026",
+      "created_at": "2026-11-20",
+      "updated_at": "2026-11-22",
+      "stars": 0,
+      "forks": 0,
+      "is_fork": false,
+      "archived": false,
+      "score": 100,
+      "featured": true
+    },
+    {
+      "name": "v25-audio-enhancement-research",
+      "html_url": "https://github.com/SaladDann/v25-audio-enhancement-research",
+      "homepage": "",
+      "description": "Investigación experimental sobre una capa residual para mejorar la reconstrucción de audio MP3. Incluye el prototipo V25, métricas de evaluación y pruebas de reproducibilidad. No es un códec de producción.",
+      "language": "Python",
+      "year": "2026",
+      "created_at": "2026-10-25",
+      "updated_at": "2026-10-26",
+      "stars": 0,
+      "forks": 0,
+      "is_fork": false,
+      "archived": false,
+      "score": 100,
+      "featured": true
+    }
+  ]
+}
