@@ -7,10 +7,13 @@ GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 USERNAME = os.environ.get("GITHUB_ACTOR", "SaladDann")
 OUTPUT_PATH = os.path.join("data", "metrics.json")
 
-GRAPHQL_QUERY = """
+USER_OVERVIEW_QUERY = """
 query($login: String!) {
   user(login: $login) {
     createdAt
+    starredRepositories(first: 1) {
+      totalCount
+    }
     contributionsCollection {
       totalCommitContributions
       restrictedContributionsCount
@@ -27,10 +30,30 @@ query($login: String!) {
         }
       }
     }
-    repositories(first: 100, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
+    repositories(ownerAffiliations: OWNER, isFork: false) {
       totalCount
+    }
+  }
+}
+"""
+
+PAGINATED_REPOS_QUERY = """
+query($login: String!, $cursor: String) {
+  user(login: $login) {
+    repositories(
+      first: 100
+      after: $cursor
+      ownerAffiliations: OWNER
+      isFork: false
+      orderBy: {field: UPDATED_AT, direction: DESC}
+    ) {
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
       nodes {
         name
+        stargazerCount
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
           edges {
             size
@@ -46,9 +69,9 @@ query($login: String!) {
 """
 
 
-def fetch_github_graphql(token: str, username: str) -> dict:
+def execute_graphql(token: str, query: str, variables: dict) -> dict:
     url = "https://api.github.com/graphql"
-    payload = json.dumps({"query": GRAPHQL_QUERY, "variables": {"login": username}}).encode("utf-8")
+    payload = json.dumps({"query": query, "variables": variables}).encode("utf-8")
     headers = {
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
@@ -60,6 +83,33 @@ def fetch_github_graphql(token: str, username: str) -> dict:
         if "errors" in result:
             raise RuntimeError(f"GraphQL Error: {result['errors']}")
         return result["data"]["user"]
+
+
+def fetch_all_repositories(token: str, username: str) -> list[dict]:
+    all_repos = []
+    cursor = None
+
+    while True:
+        data = execute_graphql(
+            token,
+            PAGINATED_REPOS_QUERY,
+            {"login": username, "cursor": cursor},
+        )
+        repo_conn = data["repositories"]
+        all_repos.extend(repo_conn["nodes"])
+
+        page_info = repo_conn["pageInfo"]
+        if not page_info["hasNextPage"]:
+            break
+        cursor = page_info["endCursor"]
+
+    return all_repos
+
+
+def fetch_github_graphql(token: str, username: str) -> dict:
+    user_data = execute_graphql(token, USER_OVERVIEW_QUERY, {"login": username})
+    user_data["all_repositories"] = fetch_all_repositories(token, username)
+    return user_data
 
 
 def format_short_date(iso_date: str) -> str:
@@ -89,7 +139,6 @@ def calculate_streaks(days: list[dict]) -> dict:
         else:
             temp_streak = 0
 
-    # Racha actual (evaluando hasta hoy o ayer si hoy aún no hay commits)
     current = 0
     current_date_label = ""
     if days:
@@ -141,7 +190,6 @@ def calculate_top_languages(repos: list[dict], exclude: set[str] | None = None) 
 
     for idx, (name, size) in enumerate(sorted_langs):
         pct = round((size / total_bytes) * 100, 1)
-        # Mostrar hasta 7 lenguajes individuales con >= 1.5%; agrupar el resto en "Otros"
         if idx < 7 and pct >= 1.5:
             result.append({"name": name, "bytes": size, "percent": pct})
         else:
@@ -162,21 +210,27 @@ def build_metrics_snapshot(user_data: dict, generated_at: str | None = None) -> 
 
     all_days = [day for week in weeks for day in week["contributionDays"]]
     streaks = calculate_streaks(all_days)
-    top_langs = calculate_top_languages(user_data["repositories"]["nodes"])
+
+    all_repos = user_data["all_repositories"]
+    top_langs = calculate_top_languages(all_repos)
 
     created_dt = datetime.strptime(user_data["createdAt"][:10], "%Y-%m-%d")
     joined_label = created_dt.strftime("%b %d, %Y")
 
     total_commits = contrib["totalCommitContributions"] + contrib["restrictedContributionsCount"]
+    stars_given = user_data["starredRepositories"]["totalCount"]
+    stars_received = sum(repo.get("stargazerCount", 0) for repo in all_repos)
 
     return {
         "generated_at": generated_at or datetime.now(timezone.utc).isoformat(),
         "username": USERNAME,
         "stats": {
             "commits_year": total_commits,
-            "repos": user_data["repositories"]["totalCount"],
+            "repos": len(all_repos),
             "prs": contrib["totalPullRequestContributions"],
             "issues": contrib["totalIssueContributions"],
+            "stars_given": stars_given,
+            "stars_received": stars_received,
         },
         "streak": {
             "total_contributions": calendar["totalContributions"],
