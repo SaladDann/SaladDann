@@ -1,0 +1,154 @@
+from .theme import PALETTE, esc, format_compact_number
+
+
+def render_streak(data: dict) -> str:
+    s = data.get("streak", {})
+    total = esc(format_compact_number(s.get("total_contributions", 0)))
+    date_range = esc(s.get("date_range", ""))
+    current = esc(format_compact_number(s.get("current_streak", 0)))
+    curr_date = esc(s.get("current_date", ""))
+    longest = esc(format_compact_number(s.get("longest_streak", 0)))
+    longest_range = esc(s.get("longest_range", ""))
+
+    # 3 columnas equidistantes sobre 560px (centros: 93, 280, 467)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 560 190"
+     width="560"
+     height="190"
+     direction="ltr"
+     role="img"
+     aria-label="GitHub Contribution Streak">
+
+  <defs>
+    <mask id="mask_out_ring_behind_fire">
+      <rect width="560" height="190" fill="white" />
+      <ellipse cx="280" cy="30" rx="13" ry="18" fill="black" />
+    </mask>
+  </defs>
+
+  <line x1="186.5" y1="24" x2="186.5" y2="166"
+    stroke="{PALETTE['neutral']}"
+    stroke-opacity="0.2"
+    stroke-width="1" />
+
+  <line x1="373.5" y1="24" x2="373.5" y2="166"
+    stroke="{PALETTE['neutral']}"
+    stroke-opacity="0.2"
+    stroke-width="1" />
+
+  <!-- TOTAL -->
+  <text x="93" y="80"
+    text-anchor="middle"
+    fill="{PALETTE['blue']}"
+    font-family="monospace"
+    font-weight="700"
+    font-size="25">
+    {total}
+  </text>
+
+  <text x="93" y="114"
+    text-anchor="middle"
+    fill="{PALETTE['neutral']}"
+    opacity="0.9"
+    font-family="sans-serif"
+    font-weight="500"
+    font-size="11.5">
+    Total Contributions
+  </text>
+
+  <text x="93" y="142"
+    text-anchor="middle"
+    fill="{PALETTE['neutral']}"
+    opacity="0.75"
+    font-family="monospace"
+    font-size="10.5">
+    {date_range}
+  </text>
+
+  <!-- CURRENT STREAK -->
+  <g mask="url(#mask_out_ring_behind_fire)">
+    <circle cx="280" cy="68" r="36"
+      fill="none"
+      stroke="{PALETTE['blue']}"
+      stroke-width="3.8" />
+  </g>
+
+  <g transform="translate(280, 30)">
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1 1; 1.07 1.13; 0.96 0.94; 1.04 1.09; 1 1"
+        dur="2.2s"
+        repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" />
+      <path d="M 1.5 -10.83 C 1.5 -10.83 2.24 -8.18 2.24 -6.03 C 2.24 -3.97 0.89 -2.3 -1.17 -2.3 C -3.23 -2.3 -4.79 -3.97 -4.79 -6.03 L -4.76 -6.39 C -6.78 -3.99 -8 -0.88 -8 2.49 C -8 6.91 -4.42 10.5 0 10.5 C 4.42 10.5 8 6.91 8 2.49 C 8 -2.9 5.41 -7.71 1.5 -10.83 Z M -0.29 7.5 C -2.07 7.5 -3.51 6.1 -3.51 4.36 C -3.51 2.74 -2.46 1.6 -0.7 1.24 C 1.07 0.88 2.9 0.03 3.92 -1.34 C 4.31 -0.05 4.51 1.31 4.51 2.7 C 4.51 5.35 2.36 7.5 -0.29 7.5 Z"
+        fill="{PALETTE['peach']}">
+        <animate
+          attributeName="fill"
+          values="{PALETTE['peach']}; {PALETTE['coral']}; {PALETTE['yellow']}; {PALETTE['peach']}"
+          dur="2.2s"
+          repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+
+  <text x="280" y="80"
+    text-anchor="middle"
+    fill="{PALETTE['mint']}"
+    font-family="monospace"
+    font-weight="700"
+    font-size="25">
+    {current}
+  </text>
+
+  <text x="280" y="138"
+    text-anchor="middle"
+    fill="{PALETTE['mint']}"
+    font-family="sans-serif"
+    font-weight="700"
+    font-size="11.5">
+    Current Streak
+  </text>
+
+  <text x="280" y="166"
+    text-anchor="middle"
+    fill="{PALETTE['neutral']}"
+    opacity="0.75"
+    font-family="monospace"
+    font-size="10.5">
+    {curr_date}
+  </text>
+
+  <!-- LONGEST STREAK -->
+  <text x="467" y="80"
+    text-anchor="middle"
+    fill="{PALETTE['lavender']}"
+    font-family="monospace"
+    font-weight="700"
+    font-size="25">
+    {longest}
+  </text>
+
+  <text x="467" y="114"
+    text-anchor="middle"
+    fill="{PALETTE['neutral']}"
+    opacity="0.9"
+    font-family="sans-serif"
+    font-weight="500"
+    font-size="11.5">
+    Longest Streak
+  </text>
+
+  <text x="467" y="142"
+    text-anchor="middle"
+    fill="{PALETTE['neutral']}"
+    opacity="0.75"
+    font-family="monospace"
+    font-size="10.5">
+    {longest_range}
+  </text>
+
+</svg>
+"""
