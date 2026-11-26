@@ -1,4 +1,4 @@
-<table width="100%" cellpadding="14" cellspacing="0">
+<table width="100%" cellpadding="10" cellspacing="0">
   <!-- ROW 1: HEADER — Identity + Socials (70%) | Codebars + CTA (30%) -->
   <tr>
     <td width="70%" align="center" valign="middle">
@@ -35,9 +35,9 @@
 
   <!-- ROW 2: AREAS OF INTEREST -->
   <tr>
-    <td colspan="2" width="860" align="center" valign="middle">
+    <td colspan="2" width="100%" align="center" valign="middle">
       <p><sub><b>AREAS OF INTEREST</b></sub></p>
-      <table width="100%" cellpadding="8" cellspacing="0">
+      <table width="100%" cellpadding="6" cellspacing="0">
         <tr>
           <td width="33.33%" align="left" valign="top">
             <p>
@@ -76,8 +76,8 @@
 
   <!-- ROW 3: LIVE METRICS (68% / 32% — 1:1 SVG SCALE) -->
   <tr>
-    <td colspan="2" width="860" align="center" valign="middle">
-      <table width="100%" cellpadding="6" cellspacing="0">
+    <td colspan="2" width="100%" align="center" valign="middle">
+      <table width="100%" cellpadding="4" cellspacing="0">
         <tr>
           <td width="68%" align="center" valign="middle">
             <img src="./assets/02-metrics-streak.svg" width="100%" alt="Contribution Streak" />
@@ -147,9 +147,10 @@
 
   <!-- ROW 5: FOOTER (CONTRIBUTION GRAPH & WAVE) -->
   <tr>
-    <td colspan="2" width="860" align="center" valign="middle">
-      <img src="./assets/04-footer-contrib.svg" alt="Annual Contributions" />
-      <img src="./assets/04-footer-wave.svg" alt="Footer Wave" />
+    <td colspan="2" width="100%" align="center" valign="middle">
+      <img src="./assets/04-footer-contrib.svg" width="100%" alt="Annual Contributions" />
+      <br /><br />
+      <img src="./assets/04-footer-wave.svg" width="100%" alt="Footer Wave" />
     </td>
   </tr>
 </table>
