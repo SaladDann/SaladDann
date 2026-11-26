@@ -33,60 +33,81 @@
     </td>
   </tr>
 
-  <!-- ROW 2: AREAS OF INTEREST -->
+  <!-- ROW 2: CORE FOCUS & VALUE PROPOSITION (70% / 30% ) -->
   <tr>
-    <td colspan="2" width="100%" align="center" valign="middle">
-      <p><sub><b>AREAS OF INTEREST</b></sub></p>
-      <table width="100%" cellpadding="6" cellspacing="0">
-        <tr>
-          <td width="33.33%" align="left" valign="top">
-            <p>
-              <sub><b>Software Engineering</b><br />
-              <em>Architecture, design patterns and software quality.</em></sub>
-            </p>
-            <p>
-              <sub><b>Mobile Development</b><br />
-              <em>Android, Kotlin and cross-platform applications.</em></sub>
-            </p>
-          </td>
-          <td width="33.33%" align="left" valign="top">
-            <p>
-              <sub><b>Backend &amp; Distributed Systems</b><br />
-              <em>APIs, databases and distributed architectures.</em></sub>
-            </p>
-            <p>
-              <sub><b>Audio Engineering</b><br />
-              <em>Digital signal processing and audio compression.</em></sub>
-            </p>
-          </td>
-          <td width="33.33%" align="left" valign="top">
-            <p>
-              <sub><b>Systems Programming</b><br />
-              <em>C++, data structures, memory management and performance.</em></sub>
-            </p>
-            <p>
-              <sub><b>Research &amp; Development</b><br />
-              <em>Technical experimentation and prototyping.</em></sub>
-            </p>
-          </td>
-        </tr>
-      </table>
+    <!-- COLUMNA IZQUIERDA (70%): QUÉ CONSTRUYES Y DOMINIO TÉCNICO ACTUAL -->
+    <td width="70%" align="left" valign="middle">
+      <p align="center"><sub><b>CORE AREAS</b></sub></p>
+      <!-- 1. Capacidad estructural: demuestra que piensas en sistemas escalables, no solo código suelto -->
+      <p>
+        <sub>
+          <img src="https://api.iconify.design/mdi/circle-medium.svg?color=%234A90D9&width=16&height=16" width="16" height="16" alt="•" align="middle" />
+          <b>Software Architecture</b> · <em>Clean &amp; Hexagonal design, SOLID, modular systems</em>
+        </sub>
+      </p>
+      <!-- 2. Núcleo de negocio y datos: muestra dominio de servidor, APIs y persistencia -->
+      <p>
+        <sub>
+          <img src="https://api.iconify.design/mdi/circle-medium.svg?color=%233DA372&width=16&height=16" width="16" height="16" alt="•" align="middle" />
+          <b>Backend &amp; Data</b> · <em>REST/GraphQL APIs, SQL modeling, distributed services</em>
+        </sub>
+      </p>
+      <!-- 3. Especialización de producto/cliente: tu stack principal orientado al usuario -->
+      <p>
+        <sub>
+          <img src="https://api.iconify.design/mdi/circle-medium.svg?color=%238B6BB7&width=16&height=16" width="16" height="16" alt="•" align="middle" />
+          <b>Mobile Engineering</b> · <em>Native Android (Kotlin, Media3), Flutter, offline-first</em>
+        </sub>
+      </p>
+      <!-- 4. Factor diferencial / I+D actual: lo que te distingue del promedio (bajo nivel, DSP, IA, etc.) -->
+      <p>
+        <sub>
+          <img src="https://api.iconify.design/mdi/circle-medium.svg?color=%23D97B54&width=16&height=16" width="16" height="16" alt="•" align="middle" />
+          <b>Systems &amp; Audio DSP</b> · <em>C++, memory efficiency, lossless audio pipelines</em>
+        </sub>
+      </p>
+    </td>
+    <!-- COLUMNA DERECHA (30%): CÓMO TRABAJAS Y DISPONIBILIDAD -->
+    <td width="30%" align="left" valign="middle">
+      <p align="center"><sub><b>PROFILE</b></sub></p>
+      <!-- 1. Rol objetivo: ubica inmediatamente en qué vacante o equipo encajas -->
+      <p>
+        <sub>
+          <img src="https://api.iconify.design/mdi/circle-medium.svg?color=%234A90D9&width=16&height=16" width="16" height="16" alt="•" align="middle" />
+          <b>Focus:</b> <em>Full-Stack &amp; Mobile</em>
+        </sub>
+      </p>
+      <!-- 2. Madurez de ingeniería: señala buenas prácticas reales de equipo y producción -->
+      <p>
+        <sub>
+          <img src="https://api.iconify.design/mdi/circle-medium.svg?color=%233DA372&width=16&height=16" width="16" height="16" alt="•" align="middle" />
+          <b>Standards:</b> <em>ADRs &amp; CI/CD</em>
+        </sub>
+      </p>
+      <!-- 3. Enfoque mental / interés vigente: cómo abordas problemas complejos -->
+      <p>
+        <sub>
+          <img src="https://api.iconify.design/mdi/circle-medium.svg?color=%238B6BB7&width=16&height=16" width="16" height="16" alt="•" align="middle" />
+          <b>Mindset:</b> <em>Deterministic &amp; R&amp;D</em>
+        </sub>
+      </p>
+      <!-- 4. Estado laboral -->
+      <p>
+        <sub>
+          <img src="https://api.iconify.design/mdi/circle-medium.svg?color=%23D97B54&width=16&height=16" width="16" height="16" alt="•" align="middle" />
+          <b>Status:</b> <em>Building Products, Open to Opportunities</em>
+        </sub>
+      </p>
     </td>
   </tr>
 
   <!-- ROW 3: LIVE METRICS (68% / 32% — 1:1 SVG SCALE) -->
-  <tr>
-    <td colspan="2" width="100%" align="center" valign="middle">
-      <table width="100%" cellpadding="4" cellspacing="0">
-        <tr>
-          <td width="68%" align="center" valign="middle">
-            <img src="./assets/02-metrics-streak.svg" width="100%" alt="Contribution Streak" />
-          </td>
-          <td width="32%" align="center" valign="middle">
-            <img src="./assets/02-metrics-stats.svg" width="100%" alt="GitHub Statistics" />
-          </td>
-        </tr>
-      </table>
+<tr>
+    <td width="70%" align="center" valign="middle">
+      <img src="./assets/02-metrics-streak.svg" width="100%" alt="Contribution Streak" />
+    </td>
+    <td width="30%" align="center" valign="middle">
+      <img src="./assets/02-metrics-stats.svg" width="100%" alt="GitHub Statistics" />
     </td>
   </tr>
 
