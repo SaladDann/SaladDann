@@ -1,45 +1,55 @@
 {
-  "generated_at": "2026-11-26T16:44:12.204063+00:00",
+  "generated_at": "2026-11-27T08:30:46.583576+00:00",
   "username": "SaladDann",
   "stats": {
-    "commits_year": 87,
-    "repos": 3,
+    "commits_year": 94,
+    "repos": 4,
     "prs": 1,
     "issues": 0,
     "stars_given": 22,
     "stars_received": 0
   },
   "streak": {
-    "total_contributions": 90,
+    "total_contributions": 98,
     "date_range": "May 13, 2025 - Present",
-    "current_streak": 1,
-    "current_date": "Nov 26",
+    "current_streak": 2,
+    "current_date": "Nov 27",
     "longest_streak": 5,
     "longest_range": "Nov 17 - Nov 21"
   },
   "languages": [
     {
       "name": "Python",
-      "bytes": 197800,
-      "percent": 54.3
+      "bytes": 202457,
+      "percent": 36.1
+    },
+    {
+      "name": "Astro",
+      "bytes": 113742,
+      "percent": 20.3
     },
     {
       "name": "Kotlin",
       "bytes": 85405,
-      "percent": 23.5
+      "percent": 15.2
     },
     {
       "name": "Dart",
       "bytes": 80782,
-      "percent": 22.2
+      "percent": 14.4
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 77791,
+      "percent": 13.9
+    },
+    {
+      "name": "Otros",
+      "bytes": 519,
+      "percent": 0.1
     }
   ],
   "recent_25_days": [
-    {
-      "date": "2026-11-02",
-      "contributionCount": 0,
-      "contributionLevel": "NONE"
-    },
     {
       "date": "2026-11-03",
       "contributionCount": 0,
@@ -157,7 +167,12 @@
     },
     {
       "date": "2026-11-26",
-      "contributionCount": 4,
+      "contributionCount": 9,
+      "contributionLevel": "SECOND_QUARTILE"
+    },
+    {
+      "date": "2026-11-27",
+      "contributionCount": 3,
       "contributionLevel": "FIRST_QUARTILE"
     }
   ],
@@ -2175,7 +2190,12 @@
         },
         {
           "date": "2026-11-26",
-          "contributionCount": 4,
+          "contributionCount": 9,
+          "contributionLevel": "SECOND_QUARTILE"
+        },
+        {
+          "date": "2026-11-27",
+          "contributionCount": 3,
           "contributionLevel": "FIRST_QUARTILE"
         }
       ]

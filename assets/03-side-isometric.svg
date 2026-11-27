@@ -15,9 +15,11 @@
     ACTIVITY (25D)
   </text>
 
-    <rect x="192.0" y="10.0" width="12" height="12" rx="3" fill="#3DA372" />    <polygon points="198.0,13.4 202.4,16.0 198.0,18.6 193.6,16.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
-    <rect x="208.0" y="10.0" width="12" height="12" rx="3" fill="#8B6BB7" />    <ellipse cx="214.0" cy="16.0" rx="3.6" ry="2.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
-    <rect x="224.0" y="10.0" width="12" height="12" rx="3" fill="#2E86AB" />    <path d="M 227.0 14.5 L 233.0 17.5 M 227.0 17.5 L 233.0 14.5" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.2" stroke-linecap="round" />
+    <rect x="160.0" y="10.0" width="12" height="12" rx="3" fill="#3DA372" />    <polygon points="166.0,13.4 170.4,16.0 166.0,18.6 161.6,16.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
+    <rect x="176.0" y="10.0" width="12" height="12" rx="3" fill="#D97B54" />    <ellipse cx="182.0" cy="16.0" rx="3.6" ry="2.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
+    <rect x="192.0" y="10.0" width="12" height="12" rx="3" fill="#8B6BB7" />    <path d="M 195.0 14.5 L 201.0 17.5 M 195.0 17.5 L 201.0 14.5" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.2" stroke-linecap="round" />
+    <rect x="208.0" y="10.0" width="12" height="12" rx="3" fill="#2E86AB" />    <ellipse cx="214.0" cy="16.0" rx="2.4" ry="1.3" fill="#1e293b" fill-opacity="0.55" />
+    <rect x="224.0" y="10.0" width="12" height="12" rx="3" fill="#4A90D9" />    <path d="M 227.6 17.4 L 231.0 14.1 M 229.5 17.9 L 232.9 14.6" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" stroke-linecap="round" />
 
   <line x1="10" y1="29" x2="240" y2="29"
     stroke="#768390"
@@ -39,52 +41,58 @@
     <polygon points="-18.0,27.0 -2.8000000000000007,19.4 12.399999999999999,27.0 -2.8000000000000007,34.6" fill="#768390" fill-opacity="0.16" />
     <polygon points="0.0,36.0 15.2,28.4 30.4,36.0 15.2,43.6" fill="#768390" fill-opacity="0.16" />
     <polygon points="18.0,45.0 33.2,37.4 48.4,45.0 33.2,52.6" fill="#768390" fill-opacity="0.16" />
-    <polygon points="36.0,54.0 51.2,46.4 66.4,54.0 51.2,61.6" fill="#768390" fill-opacity="0.16" />
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5.5; 0,0" dur="4.32s" begin="0.00s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+      <polygon points="36.0,42.0 51.2,34.4 66.4,42.0 51.2,49.6" fill="#8B6BB7" />
+      <polygon points="36.0,42.0 51.2,49.6 51.2,61.6 36.0,54.0" fill="#745999" />
+      <polygon points="51.2,49.6 66.4,42.0 66.4,54.0 51.2,61.6" fill="#5e487c" />
+      <path d="M 48.2 40.5 L 54.2 43.5 M 48.2 43.5 L 54.2 40.5" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.2" stroke-linecap="round" />
+    </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3.5; 0,0" dur="3.20s" begin="0.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="-54.0,15.0 -38.8,7.399999999999999 -23.6,15.0 -38.8,22.6" fill="#2E86AB" />
-      <polygon points="-54.0,15.0 -38.8,22.6 -38.8,34.6 -54.0,27.0" fill="#26708f" />
-      <polygon points="-38.8,22.6 -23.6,15.0 -23.6,27.0 -38.8,34.6" fill="#1f5b74" />
-      <path d="M -41.8 13.5 L -35.8 16.5 M -41.8 16.5 L -35.8 13.5" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.2" stroke-linecap="round" />
+      <polygon points="-54.0,12.0 -38.8,4.399999999999999 -23.6,12.0 -38.8,19.6" fill="#8B6BB7" />
+      <polygon points="-54.0,12.0 -38.8,19.6 -38.8,34.6 -54.0,27.0" fill="#745999" />
+      <polygon points="-38.8,19.6 -23.6,12.0 -23.6,27.0 -38.8,34.6" fill="#5e487c" />
+      <path d="M -41.8 10.5 L -35.8 13.5 M -41.8 13.5 L -35.8 10.5" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.2" stroke-linecap="round" />
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4.5; 0,0" dur="3.48s" begin="0.50s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="-36.0,21.0 -20.8,13.399999999999999 -5.600000000000001,21.0 -20.8,28.6" fill="#8B6BB7" />
-      <polygon points="-36.0,21.0 -20.8,28.6 -20.8,43.6 -36.0,36.0" fill="#745999" />
-      <polygon points="-20.8,28.6 -5.600000000000001,21.0 -5.600000000000001,36.0 -20.8,43.6" fill="#5e487c" />
-      <ellipse cx="-20.8" cy="21.0" rx="3.6" ry="2.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
+      <polygon points="-36.0,28.0 -20.8,20.4 -5.600000000000001,28.0 -20.8,35.6" fill="#3DA372" />
+      <polygon points="-36.0,28.0 -20.8,35.6 -20.8,43.6 -36.0,36.0" fill="#33885f" />
+      <polygon points="-20.8,35.6 -5.600000000000001,28.0 -5.600000000000001,36.0 -20.8,43.6" fill="#296e4d" />
+      <polygon points="-20.8,25.4 -16.4,28.0 -20.8,30.6 -25.200000000000003,28.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5.5; 0,0" dur="3.76s" begin="0.75s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="-18.0,37.0 -2.8000000000000007,29.4 12.399999999999999,37.0 -2.8000000000000007,44.6" fill="#3DA372" />
-      <polygon points="-18.0,37.0 -2.8000000000000007,44.6 -2.8000000000000007,52.6 -18.0,45.0" fill="#33885f" />
-      <polygon points="-2.8000000000000007,44.6 12.399999999999999,37.0 12.399999999999999,45.0 -2.8000000000000007,52.6" fill="#296e4d" />
-      <polygon points="-2.8,34.4 1.6000000000000005,37.0 -2.8,39.6 -7.2,37.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
+      <polygon points="-18.0,22.0 -2.8000000000000007,14.399999999999999 12.399999999999999,22.0 -2.8000000000000007,29.6" fill="#4A90D9" />
+      <polygon points="-18.0,22.0 -2.8000000000000007,29.6 -2.8000000000000007,52.6 -18.0,45.0" fill="#3e78b6" />
+      <polygon points="-2.8000000000000007,29.6 12.399999999999999,22.0 12.399999999999999,45.0 -2.8000000000000007,52.6" fill="#326193" />
+      <path d="M -5.199999999999999 23.4 L -1.7999999999999998 20.1 M -3.3 23.9 L 0.10000000000000009 20.6" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" stroke-linecap="round" />
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3.5; 0,0" dur="4.04s" begin="1.00s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="0.0,31.0 15.2,23.4 30.4,31.0 15.2,38.6" fill="#8B6BB7" />
-      <polygon points="0.0,31.0 15.2,38.6 15.2,61.6 0.0,54.0" fill="#745999" />
-      <polygon points="15.2,38.6 30.4,31.0 30.4,54.0 15.2,61.6" fill="#5e487c" />
-      <ellipse cx="15.2" cy="31.0" rx="3.6" ry="2.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
+      <polygon points="0.0,47.0 15.2,39.4 30.4,47.0 15.2,54.6" fill="#3DA372" />
+      <polygon points="0.0,47.0 15.2,54.6 15.2,61.6 0.0,54.0" fill="#33885f" />
+      <polygon points="15.2,54.6 30.4,47.0 30.4,54.0 15.2,61.6" fill="#296e4d" />
+      <polygon points="15.2,44.4 19.6,47.0 15.2,49.6 10.799999999999999,47.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
     </g>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4.5; 0,0" dur="4.32s" begin="1.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="18.0,56.0 33.2,48.4 48.4,56.0 33.2,63.599999999999994" fill="#3DA372" />
-      <polygon points="18.0,56.0 33.2,63.599999999999994 33.2,70.6 18.0,63.0" fill="#33885f" />
-      <polygon points="33.2,63.599999999999994 48.4,56.0 48.4,63.0 33.2,70.6" fill="#296e4d" />
-      <polygon points="33.2,53.4 37.6,56.0 33.2,58.6 28.800000000000004,56.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
-    </g>
+    <polygon points="18.0,63.0 33.2,55.4 48.4,63.0 33.2,70.6" fill="#768390" fill-opacity="0.16" />
     <polygon points="-72.0,36.0 -56.8,28.4 -41.6,36.0 -56.8,43.6" fill="#768390" fill-opacity="0.16" />
     <polygon points="-54.0,45.0 -38.8,37.4 -23.6,45.0 -38.8,52.6" fill="#768390" fill-opacity="0.16" />
     <polygon points="-36.0,54.0 -20.8,46.4 -5.600000000000001,54.0 -20.8,61.6" fill="#768390" fill-opacity="0.16" />
-    <polygon points="-18.0,63.0 -2.8000000000000007,55.4 12.399999999999999,63.0 -2.8000000000000007,70.6" fill="#768390" fill-opacity="0.16" />
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5.5; 0,0" dur="4.04s" begin="0.50s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+      <polygon points="-18.0,51.0 -2.8000000000000007,43.4 12.399999999999999,51.0 -2.8000000000000007,58.599999999999994" fill="#8B6BB7" />
+      <polygon points="-18.0,51.0 -2.8000000000000007,58.599999999999994 -2.8000000000000007,70.6 -18.0,63.0" fill="#745999" />
+      <polygon points="-2.8000000000000007,58.599999999999994 12.399999999999999,51.0 12.399999999999999,63.0 -2.8000000000000007,70.6" fill="#5e487c" />
+      <path d="M -5.8 49.5 L 0.20000000000000018 52.5 M -5.8 52.5 L 0.20000000000000018 49.5" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.2" stroke-linecap="round" />
+    </g>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3.5; 0,0" dur="4.32s" begin="0.75s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
-      <polygon points="0.0,64.0 15.2,56.400000000000006 30.4,64.0 15.2,71.6" fill="#8B6BB7" />
-      <polygon points="0.0,64.0 15.2,71.6 15.2,79.6 0.0,72.0" fill="#745999" />
-      <polygon points="15.2,71.6 30.4,64.0 30.4,72.0 15.2,79.6" fill="#5e487c" />
-      <ellipse cx="15.2" cy="64.0" rx="3.6" ry="2.0" fill="none" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.15" />
+      <polygon points="0.0,65.0 15.2,57.400000000000006 30.4,65.0 15.2,72.6" fill="#8B6BB7" />
+      <polygon points="0.0,65.0 15.2,72.6 15.2,79.6 0.0,72.0" fill="#745999" />
+      <polygon points="15.2,72.6 30.4,65.0 30.4,72.0 15.2,79.6" fill="#5e487c" />
+      <path d="M 12.2 63.5 L 18.2 66.5 M 12.2 66.5 L 18.2 63.5" stroke="#1e293b" stroke-opacity="0.55" stroke-width="1.2" stroke-linecap="round" />
     </g>
   </g>
 </svg>

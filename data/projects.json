@@ -1,16 +1,33 @@
 {
-  "generated_at": "2026-11-22T06:46:27.742356+00:00",
+  "generated_at": "2026-11-27T08:30:46.991103+00:00",
   "username": "SaladDann",
   "summary": {
-    "total_projects": 2,
-    "original_projects": 2,
-    "featured_projects": 2,
+    "total_projects": 3,
+    "original_projects": 3,
+    "featured_projects": 3,
     "languages": [
+      "Astro",
       "Kotlin",
       "Python"
     ]
   },
   "projects": [
+    {
+      "name": "artist-website",
+      "html_url": "https://github.com/SaladDann/artist-website",
+      "homepage": "",
+      "description": "Plataforma web editorial diseñada para artistas independientes, impulsada por **Arquitectura Hexagonal (Ports & Adapters)**, principio **Content-as-Code** con validación estricta mediante Zod, almacenamiento multimedia desacoplado en la nube.",
+      "language": "Astro",
+      "year": "2026",
+      "created_at": "2026-11-27",
+      "updated_at": "2026-11-27",
+      "stars": 0,
+      "forks": 0,
+      "is_fork": false,
+      "archived": false,
+      "score": 100,
+      "featured": true
+    },
     {
       "name": "offline_music",
       "html_url": "https://github.com/SaladDann/offline_music",
@@ -40,7 +57,7 @@
       "forks": 0,
       "is_fork": false,
       "archived": false,
-      "score": 100,
+      "score": 93,
       "featured": true
     }
   ]

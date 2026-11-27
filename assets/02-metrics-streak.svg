@@ -30,7 +30,7 @@
     font-family="monospace"
     font-weight="700"
     font-size="25">
-    90
+    98
   </text>
 
   <text x="93" y="114"
@@ -87,7 +87,7 @@
     font-family="monospace"
     font-weight="700"
     font-size="25">
-    1
+    2
   </text>
 
   <text x="280" y="138"
@@ -105,7 +105,7 @@
     opacity="0.75"
     font-family="monospace"
     font-size="10.5">
-    Nov 26
+    Nov 27
   </text>
 
   <!-- LONGEST STREAK -->
